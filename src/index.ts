@@ -1,29 +1,71 @@
 import type { TextlintRuleModule } from "@textlint/types";
+import { tokenize } from "kuromojin";
+import { createTextlintMatcher } from "morpheme-match-textlint";
 
-export interface Options {
-  // If node's text includes allowed text, does not report.
-  allows?: string[];
-}
+const dictionaries = [
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "わけ",
+    tokens: [
+      {
+        surface_form: "訳",
+        pos: "名詞",
+        basic_form: "訳",
+        reading: "ワケ",
+        pronunciation: "ワケ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "ほう",
+    tokens: [
+      {
+        surface_form: "方",
+        pos: "名詞",
+        basic_form: "方",
+        reading: "ホウ",
+        pronunciation: "ホー",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "ほか",
+    tokens: [
+      {
+        surface_form: "他",
+        pos: "名詞",
+        basic_form: "他",
+        reading: "ホカ",
+        pronunciation: "ホカ",
+      },
+    ],
+  },
+];
 
-const report: TextlintRuleModule<Options> = (context, options = {}) => {
-  const { Syntax, RuleError, report, getSource, locator } = context;
-  const allows = options.allows ?? [];
+const report: TextlintRuleModule = (context) => {
+  const { Syntax, RuleError, report, getSource, fixer } = context;
+  const matchAll = createTextlintMatcher({ tokenize, dictionaries });
+
   return {
     [Syntax.Str](node) {
       // "Str" node
       const text = getSource(node); // Get text
-      if (allows.some((allow) => text.includes(allow))) {
-        return;
-      }
-      const matches = text.matchAll(/bugs/g);
-      for (const match of matches) {
-        const index = match.index ?? 0;
-        const matchRange = [index, index + match[0].length] as const;
-        const ruleError = new RuleError("Found bugs.", {
-          padding: locator.range(matchRange),
-        });
-        report(node, ruleError);
-      }
+
+      return matchAll(text).then((results) => {
+        for (const result of results) {
+          if (result.expected) {
+            report(
+              node,
+              new RuleError(result.message, {
+                index: result.index,
+                fix: fixer.replaceTextRange(result.range, result.expected),
+              }),
+            );
+          }
+        }
+      });
     },
   };
 };

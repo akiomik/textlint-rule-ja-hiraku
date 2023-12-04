@@ -2,42 +2,35 @@ import TextLintTester from "textlint-tester";
 import rule from "../src/index";
 
 const tester = new TextLintTester();
-// ruleName, rule, { valid, invalid }
 tester.run("rule", rule, {
   valid: [
-    // no problem
-    "text",
-    {
-      text: "It is bugs, but it should be ignored",
-      options: {
-        allows: ["it should be ignored"],
-      },
-    },
+    "あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。",
   ],
   invalid: [
-    // single match
     {
-      text: "It is bugs.",
+      text: "僕がダンサーになった訳",
       errors: [
         {
-          message: "Found bugs.",
-          range: [6, 10],
+          message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+          range: [10, 11],
         },
       ],
     },
-    // multiple match
     {
-      text: `It has many bugs.
-
-One more bugs`,
+      text: "そうした方がよい",
       errors: [
         {
-          message: "Found bugs.",
-          range: [12, 16],
+          message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+          range: [4, 5],
         },
+      ],
+    },
+    {
+      text: "そうする他ない",
+      errors: [
         {
-          message: "Found bugs.",
-          range: [28, 32],
+          message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+          range: [4, 5],
         },
       ],
     },
