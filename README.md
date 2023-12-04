@@ -1,44 +1,42 @@
 # textlint-rule-ja-hiraku
 
-## Install
+漢字をひらくためのtextlintルール
 
-Install with [npm](https://www.npmjs.com/):
+## インストール
 
-```
+```bash
 npm install -g textlint-rule-ja-hiraku
 ```
 
-## Usage
+## 使い方
 
-Via `.textlintrc.json`(Recommended)
+`.textlintrc.json` を利用する場合 (推奨):
 
 ```json
 {
-    "rules": {
-        "ja-hiraku": true
-    }
+  "rules": {
+    "ja-hiraku": true
+  }
 }
 ```
 
-Via CLI
+CLIから利用する場合:
 
 ```bash
 textlint --rule ja-hiraku README.md
 ```
 
-### Build
+## 開発
 
-Builds source codes for publish to the `lib` folder.
-You can write ES2015+ source codes in `src/` folder.
+### ビルド
 
 ```bash
 npm run build
 ```
 
-### Tests
+### テスト
 
-Run test code in `test` folder.
-Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tester).
+[textlint-tester](https://github.com/textlint/textlint-tester) を利用してテストします。
 
 ```bash
 npm test
