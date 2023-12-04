@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/akiomik/textlint-rule-ja-hiraku/issues"
   },
-  "homepage": "https://github.com/akiomik/textlint-rule-ja-hiraku"
+  "homepage": "https://github.com/akiomik/textlint-rule-ja-hiraku",
+  "dependencies": {
+    "morpheme-match-textlint": "^2.0.6"
+  }
 }
