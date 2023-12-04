@@ -10,9 +10,9 @@ tester.run("rule", rule, {
     {
       text: "It is bugs, but it should be ignored",
       options: {
-        allows: ["it should be ignored"]
-      }
-    }
+        allows: ["it should be ignored"],
+      },
+    },
   ],
   invalid: [
     // single match
@@ -21,9 +21,9 @@ tester.run("rule", rule, {
       errors: [
         {
           message: "Found bugs.",
-          range: [6, 10]
-        }
-      ]
+          range: [6, 10],
+        },
+      ],
     },
     // multiple match
     {
@@ -33,13 +33,13 @@ One more bugs`,
       errors: [
         {
           message: "Found bugs.",
-          range: [12, 16]
+          range: [12, 16],
         },
         {
           message: "Found bugs.",
-          range: [28, 32]
-        }
-      ]
+          range: [28, 32],
+        },
+      ],
     },
-  ]
+  ],
 });

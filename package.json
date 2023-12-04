@@ -12,7 +12,9 @@
     "test": "textlint-scripts test",
     "build": "textlint-scripts build",
     "prepublish": "npm run --if-present build",
-    "watch": "textlint-scripts build --watch"
+    "watch": "textlint-scripts build --watch",
+    "format": "biome check --apply .",
+    "lint": "biome ci ."
   },
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
