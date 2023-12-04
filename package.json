@@ -32,5 +32,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/akiomik/textlint-rule-ja-hiraku.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/akiomik/textlint-rule-ja-hiraku/issues"
+  },
+  "homepage": "https://github.com/akiomik/textlint-rule-ja-hiraku"
 }
