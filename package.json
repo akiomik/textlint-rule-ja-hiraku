@@ -41,6 +41,7 @@
   },
   "homepage": "https://github.com/akiomik/textlint-rule-ja-hiraku",
   "dependencies": {
+    "kuromojin": "^3.0.0",
     "morpheme-match-textlint": "^2.0.6"
   }
 }
