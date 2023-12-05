@@ -194,4 +194,174 @@ export const dictionaries = [
       },
     ],
   },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "いろいろ",
+    tokens: [
+      // 副詞・名詞
+      {
+        surface_form: "色々",
+        basic_form: "色々",
+        reading: "イロイロ",
+        pronunciation: "イロイロ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "わかる",
+    tokens: [
+      {
+        surface_form: "分かる",
+        pos: "動詞",
+        basic_form: "分かる",
+        reading: "ワカル",
+        pronunciation: "ワカル",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "わから",
+    tokens: [
+      {
+        surface_form: "分から",
+        pos: "動詞",
+        basic_form: "分かる",
+        reading: "ワカラ",
+        pronunciation: "ワカラ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "わかり",
+    tokens: [
+      {
+        surface_form: "分かり",
+        pos: "動詞",
+        basic_form: "分かる",
+        reading: "ワカリ",
+        pronunciation: "ワカリ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "わかろ",
+    tokens: [
+      {
+        surface_form: "分かろ",
+        pos: "動詞",
+        basic_form: "分かる",
+        reading: "ワカロ",
+        pronunciation: "ワカロ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "わかっ",
+    tokens: [
+      {
+        surface_form: "分かっ",
+        pos: "動詞",
+        basic_form: "分かる",
+        reading: "ワカッ",
+        pronunciation: "ワカッ",
+      },
+    ],
+  },
+  // TODO: 
+  // {
+  //   message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+  //   expected: "とおり",
+  //   tokens: [
+  //     {
+  //       surface_form: "通り",
+  //       pos: "名詞",
+  //       basic_form: "通り",
+  //       reading: "トオリ",
+  //       pronunciation: "トーリ",
+  //     },
+  //   ],
+  // },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "まずい",
+    tokens: [
+      {
+        surface_form: "不味い",
+        pos: "形容詞",
+        basic_form: "不味い",
+        reading: "マズイ",
+        pronunciation: "マズイ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "いただく",
+    tokens: [
+      {
+        surface_form: "頂く",
+        pos: "動詞",
+        basic_form: "頂く",
+        reading: "イタダク",
+        pronunciation: "イタダク",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "いただか",
+    tokens: [
+      {
+        surface_form: "頂か",
+        pos: "動詞",
+        basic_form: "頂く",
+        reading: "イタダカ",
+        pronunciation: "イタダカ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "いただき",
+    tokens: [
+      {
+        surface_form: "頂き",
+        pos: "動詞",
+        basic_form: "頂く",
+        reading: "イタダキ",
+        pronunciation: "イタダキ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "いただけ",
+    tokens: [
+      {
+        surface_form: "頂け",
+        pos: "動詞",
+        basic_form: "頂ける",
+        reading: "イタダケ",
+        pronunciation: "イタダケ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "いただこ",
+    tokens: [
+      {
+        surface_form: "頂こ",
+        pos: "動詞",
+        basic_form: "頂く",
+        reading: "イタダコ",
+        pronunciation: "イタダコ",
+      },
+    ],
+  },
 ];
