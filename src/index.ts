@@ -2,47 +2,7 @@ import type { TextlintRuleModule } from "@textlint/types";
 import { tokenize } from "kuromojin";
 import { createTextlintMatcher } from "morpheme-match-textlint";
 
-const dictionaries = [
-  {
-    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
-    expected: "わけ",
-    tokens: [
-      {
-        surface_form: "訳",
-        pos: "名詞",
-        basic_form: "訳",
-        reading: "ワケ",
-        pronunciation: "ワケ",
-      },
-    ],
-  },
-  {
-    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
-    expected: "ほう",
-    tokens: [
-      {
-        surface_form: "方",
-        pos: "名詞",
-        basic_form: "方",
-        reading: "ホウ",
-        pronunciation: "ホー",
-      },
-    ],
-  },
-  {
-    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
-    expected: "ほか",
-    tokens: [
-      {
-        surface_form: "他",
-        pos: "名詞",
-        basic_form: "他",
-        reading: "ホカ",
-        pronunciation: "ホカ",
-      },
-    ],
-  },
-];
+import { dictionaries } from './dictionaries';
 
 const report: TextlintRuleModule = (context) => {
   const { Syntax, RuleError, report, getSource, fixer } = context;
