@@ -561,7 +561,7 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: '僅か',
+    expected: 'わずか',
     tokens: [
       {
         surface_form: '僅か',
