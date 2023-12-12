@@ -272,7 +272,7 @@ export const dictionaries = [
       },
     ],
   },
-  // TODO: 
+  // TODO:
   // {
   //   message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
   //   expected: "とおり",
@@ -361,6 +361,214 @@ export const dictionaries = [
         basic_form: "頂く",
         reading: "イタダコ",
         pronunciation: "イタダコ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "ため",
+    tokens: [
+      {
+        surface_form: "為",
+        pos: "名詞",
+        basic_form: "為",
+        reading: "タメ",
+        pronunciation: "タメ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "たくさん",
+    tokens: [
+      {
+        surface_form: "沢山",
+        pos: "副詞",
+        basic_form: "沢山",
+        reading: "タクサン",
+        pronunciation: "タクサン",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "できる",
+    tokens: [
+      {
+        surface_form: "出来る",
+        pos: "動詞",
+        basic_form: "出来る",
+        reading: "デキル",
+        pronunciation: "デキル",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "でき",
+    tokens: [
+      {
+        surface_form: "出来",
+        pos: "動詞",
+        basic_form: "出来る",
+        reading: "デキ",
+        pronunciation: "デキ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "まとめる",
+    tokens: [
+      {
+        surface_form: "纏める",
+        pos: "動詞",
+        basic_form: "纏める",
+        reading: "マトメル",
+        pronunciation: "マトメル",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "まとめ",
+    tokens: [
+      {
+        surface_form: "纏め",
+        pos: "動詞",
+        basic_form: "纏める",
+        reading: "マトメ",
+        pronunciation: "マトメ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "まとめよ",
+    tokens: [
+      {
+        surface_form: "纏めよ",
+        pos: "動詞",
+        basic_form: "纏める",
+        reading: "マトメヨ",
+        pronunciation: "マトメヨ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "ありがとう",
+    tokens: [
+      {
+        surface_form: "有難う",
+        pos: "感動詞",
+        basic_form: "有難う",
+        reading: "アリガトウ",
+        pronunciation: "アリガトー",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "ござい",
+    tokens: [
+      {
+        surface_form: "御座い",
+        pos: "助動詞",
+        basic_form: "御座る",
+        reading: "ゴザイ",
+        pronunciation: "ゴザイ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "もったいない",
+    tokens: [
+      {
+        surface_form: "勿体ない",
+        pos: "形容詞",
+        basic_form: "勿体ない",
+        reading: "モッタイナイ",
+        pronunciation: "モッタイナイ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "ござい",
+    tokens: [
+      {
+        surface_form: "御座い",
+        pos: "助動詞",
+        basic_form: "御座る",
+        reading: "ゴザイ",
+        pronunciation: "ゴザイ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "かつ",
+    tokens: [
+      {
+        surface_form: "且つ",
+        pos: "副詞",
+        basic_form: "且つ",
+        reading: "カツ",
+        pronunciation: "カツ",
+      },
+    ],
+  },
+  // {
+  //   message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+  //   expected: "拘り",
+  //   tokens: [
+  //     {
+  //       surface_form: "拘り",
+  //       pos: "動詞",
+  //       basic_form: "拘る",
+  //       reading: "コダワリ",
+  //       pronunciation: "コダワリ",
+  //     },
+  //   ],
+  // },
+  // {
+  //   message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+  //   expected: "弄る",
+  //   tokens: [
+  //     {
+  //       surface_form: "弄る",
+  //       pos: "動詞",
+  //       basic_form: "弄る",
+  //       reading: "イジル",
+  //       pronunciation: "イジル",
+  //     },
+  //   ],
+  // },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "因みに",
+    tokens: [
+      {
+        surface_form: "因みに",
+        pos: "接続詞",
+        basic_form: "因みに",
+        reading: "チナミニ",
+        pronunciation: "チナミニ",
+      },
+    ],
+  },
+  {
+    message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+    expected: "僅か",
+    tokens: [
+      {
+        surface_form: "僅か",
+        pos: "名詞",
+        basic_form: "僅か",
+        reading: "ワズカ",
+        pronunciation: "ワズカ",
       },
     ],
   },
