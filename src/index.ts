@@ -1,8 +1,8 @@
-import type { TextlintRuleModule } from "@textlint/types";
-import { tokenize } from "kuromojin";
-import { createTextlintMatcher } from "morpheme-match-textlint";
+import type { TextlintRuleModule } from '@textlint/types';
+import { tokenize } from 'kuromojin';
+import { createTextlintMatcher } from 'morpheme-match-textlint';
 
-import { dictionaries } from "./dictionaries";
+import { dictionaries } from './dictionaries';
 
 const report: TextlintRuleModule = (context) => {
   const { Syntax, RuleError, report, getSource, fixer } = context;

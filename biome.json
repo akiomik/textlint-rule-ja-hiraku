@@ -6,6 +6,11 @@
   "formatter": {
     "indentStyle": "space"
   },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  },
   "linter": {
     "enabled": true,
     "rules": {
