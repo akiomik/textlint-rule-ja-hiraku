@@ -572,4 +572,108 @@ export const dictionaries = [
       },
     ],
   },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'はじめ',
+    tokens: [
+      {
+        surface_form: '始め',
+        pos: '名詞',
+        basic_form: '始め',
+        reading: 'ハジメ',
+        pronunciation: 'ハジメ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'はじめ',
+    tokens: [
+      {
+        surface_form: '初め',
+        pos: '名詞',
+        basic_form: '初め',
+        reading: 'ハジメ',
+        pronunciation: 'ハジメ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'かたい',
+    tokens: [
+      {
+        surface_form: '固い',
+        pos: '形容詞',
+        basic_form: '固い',
+        reading: 'カタイ',
+        pronunciation: 'カタイ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'かたい',
+    tokens: [
+      {
+        surface_form: '硬い',
+        pos: '形容詞',
+        basic_form: '硬い',
+        reading: 'カタイ',
+        pronunciation: 'カタイ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'かたい',
+    tokens: [
+      {
+        surface_form: '堅い',
+        pos: '形容詞',
+        basic_form: '堅い',
+        reading: 'カタイ',
+        pronunciation: 'カタイ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ほか',
+    tokens: [
+      {
+        surface_form: '他',
+        pos: '名詞',
+        basic_form: '他',
+        reading: 'ホカ',
+        pronunciation: 'ホカ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'もってのほか',
+    tokens: [
+      {
+        surface_form: 'もっての外',
+        pos: '名詞',
+        basic_form: 'もっての外',
+        reading: 'モッテノホカ',
+        pronunciation: 'モッテノホカ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'かえって',
+    tokens: [
+      {
+        surface_form: '却って',
+        pos: '副詞',
+        basic_form: '却って',
+        reading: 'カエッテ',
+        pronunciation: 'カエッテ',
+      },
+    ],
+  },
 ];
