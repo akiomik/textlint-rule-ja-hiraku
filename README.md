@@ -1,5 +1,7 @@
 # textlint-rule-ja-hiraku
 
+[![Node.js CI](https://github.com/akiomik/textlint-rule-ja-hiraku/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/textlint-rule-ja-hiraku/actions/workflows/ci.yml)
+
 漢字をひらくためのtextlintルール
 
 ## インストール
