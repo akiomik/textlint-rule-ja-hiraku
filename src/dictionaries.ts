@@ -733,4 +733,57 @@ export const dictionaries = [
       },
     ],
   },
+  // 接続詞
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'または',
+    tokens: [
+      {
+        surface_form: '又は',
+        pos: '接続詞',
+        basic_form: '又は',
+        reading: 'マタハ',
+        pronunciation: 'マタワ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'また',
+    tokens: [
+      {
+        surface_form: '又',
+        pos: '接続詞',
+        basic_form: '又',
+        reading: 'マタ',
+        pronunciation: 'マタ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'さらに',
+    tokens: [
+      {
+        surface_form: '更に',
+        pos: '副詞',
+        basic_form: '更に',
+        reading: 'サラニ',
+        pronunciation: 'サラニ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ならびに',
+    tokens: [
+      {
+        surface_form: '並びに',
+        pos: '接続詞',
+        basic_form: '並びに',
+        reading: 'ナラビニ',
+        pronunciation: 'ナラビニ',
+      },
+    ],
+  },
 ];
