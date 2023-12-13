@@ -676,4 +676,61 @@ export const dictionaries = [
       },
     ],
   },
+  // 形式名詞
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'こと',
+    tokens: [
+      {
+        surface_form: '事',
+        pos: '名詞',
+        pos_detail_1: '非自立',
+        basic_form: '事',
+        reading: 'コト',
+        pronunciation: 'コト',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'とき',
+    tokens: [
+      {
+        surface_form: '時',
+        pos: '名詞',
+        pos_detail_1: '非自立',
+        basic_form: '時',
+        reading: 'トキ',
+        pronunciation: 'トキ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ところ',
+    tokens: [
+      {
+        surface_form: '所',
+        pos: '名詞',
+        pos_detail_1: '非自立',
+        basic_form: '所',
+        reading: 'トコロ',
+        pronunciation: 'トコロ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'もの',
+    tokens: [
+      {
+        surface_form: '物',
+        pos: '名詞',
+        pos_detail_1: '非自立',
+        basic_form: '物',
+        reading: 'モノ',
+        pronunciation: 'モノ',
+      },
+    ],
+  },
 ];
