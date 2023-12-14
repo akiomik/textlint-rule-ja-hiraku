@@ -561,6 +561,7 @@ export const dictionaries = [
       {
         surface_form: '上げ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '上げる',
         reading: 'アゲ',
         pronunciation: 'アゲ',
@@ -574,6 +575,7 @@ export const dictionaries = [
       {
         surface_form: '上げる',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '上げる',
         reading: 'アゲル',
         pronunciation: 'アゲル',
@@ -587,6 +589,7 @@ export const dictionaries = [
       {
         surface_form: '有り',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '有る',
         reading: 'アリ',
         pronunciation: 'アリ',
@@ -600,6 +603,7 @@ export const dictionaries = [
       {
         surface_form: '有る',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '有る',
         reading: 'アル',
         pronunciation: 'アル',
@@ -613,6 +617,7 @@ export const dictionaries = [
       {
         surface_form: '有れ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '有る',
         reading: 'アレ',
         pronunciation: 'アレ',
@@ -626,6 +631,7 @@ export const dictionaries = [
       {
         surface_form: '行か',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '行く',
         reading: 'イカ',
         pronunciation: 'イカ',
@@ -639,6 +645,7 @@ export const dictionaries = [
       {
         surface_form: '行き',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '行く',
         reading: 'イキ',
         pronunciation: 'イキ',
@@ -652,6 +659,7 @@ export const dictionaries = [
       {
         surface_form: '行く',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '行く',
         reading: 'イク',
         pronunciation: 'イク',
@@ -665,6 +673,7 @@ export const dictionaries = [
       {
         surface_form: '行け',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '行く',
         reading: 'イケ',
         pronunciation: 'イケ',
@@ -678,6 +687,7 @@ export const dictionaries = [
       {
         surface_form: '行こ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '行く',
         reading: 'イコ',
         pronunciation: 'イコ',
@@ -691,6 +701,7 @@ export const dictionaries = [
       {
         surface_form: '行っ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '行く',
         reading: 'イッ',
         pronunciation: 'イッ',
@@ -704,6 +715,7 @@ export const dictionaries = [
       {
         surface_form: '頂か',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '頂く',
         reading: 'イタダカ',
         pronunciation: 'イタダカ',
@@ -717,6 +729,7 @@ export const dictionaries = [
       {
         surface_form: '頂き',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '頂く',
         reading: 'イタダキ',
         pronunciation: 'イタダキ',
@@ -730,6 +743,7 @@ export const dictionaries = [
       {
         surface_form: '頂く',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '頂く',
         reading: 'イタダク',
         pronunciation: 'イタダク',
@@ -743,6 +757,7 @@ export const dictionaries = [
       {
         surface_form: '頂け',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '頂ける',
         reading: 'イタダケ',
         pronunciation: 'イタダケ',
@@ -756,6 +771,7 @@ export const dictionaries = [
       {
         surface_form: '頂こ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '頂く',
         reading: 'イタダコ',
         pronunciation: 'イタダコ',
@@ -769,6 +785,7 @@ export const dictionaries = [
       {
         surface_form: '居',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '居る',
         reading: 'イ',
         pronunciation: 'イ',
@@ -782,6 +799,7 @@ export const dictionaries = [
       {
         surface_form: '居よ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '居る',
         reading: 'イヨ',
         pronunciation: 'イヨ',
@@ -795,6 +813,7 @@ export const dictionaries = [
       {
         surface_form: '居る',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '居る',
         reading: 'イル',
         pronunciation: 'イル',
@@ -808,6 +827,7 @@ export const dictionaries = [
       {
         surface_form: '居れ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '居る',
         reading: 'イレ',
         pronunciation: 'イレ',
@@ -821,6 +841,7 @@ export const dictionaries = [
       {
         surface_form: '居ろ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '居る',
         reading: 'イロ',
         pronunciation: 'イロ',
@@ -834,6 +855,7 @@ export const dictionaries = [
       {
         surface_form: '置く',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '置く',
         reading: 'オク',
         pronunciation: 'オク',
@@ -847,6 +869,7 @@ export const dictionaries = [
       {
         surface_form: '置か',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '置く',
         reading: 'オカ',
         pronunciation: 'オカ',
@@ -860,6 +883,7 @@ export const dictionaries = [
       {
         surface_form: '置き',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '置く',
         reading: 'オキ',
         pronunciation: 'オキ',
@@ -873,6 +897,7 @@ export const dictionaries = [
       {
         surface_form: '置け',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '置く',
         reading: 'オケ',
         pronunciation: 'オケ',
@@ -886,6 +911,7 @@ export const dictionaries = [
       {
         surface_form: '置こ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '置く',
         reading: 'オコ',
         pronunciation: 'オコ',
@@ -899,6 +925,7 @@ export const dictionaries = [
       {
         surface_form: '下さい',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '下さる',
         reading: 'クダサイ',
         pronunciation: 'クダサイ',
@@ -912,6 +939,7 @@ export const dictionaries = [
       {
         surface_form: '下さっ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '下さる',
         reading: 'クダサッ',
         pronunciation: 'クダサッ',
@@ -925,6 +953,7 @@ export const dictionaries = [
       {
         surface_form: '下さら',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '下さる',
         reading: 'クダサラ',
         pronunciation: 'クダサラ',
@@ -938,9 +967,52 @@ export const dictionaries = [
       {
         surface_form: '下さる',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '下さる',
         reading: 'クダサル',
         pronunciation: 'クダサル',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'くだされ',
+    tokens: [
+      {
+        surface_form: '下され',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '下さる',
+        reading: 'クダサレ',
+        pronunciation: 'クダサレ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'くださろ',
+    tokens: [
+      {
+        surface_form: '下さろ',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '下さる',
+        reading: 'クダサロ',
+        pronunciation: 'クダサロ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'き',
+    tokens: [
+      {
+        surface_form: '来',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '来る',
+        reading: 'キ',
+        pronunciation: 'キ',
       },
     ],
   },
@@ -951,6 +1023,7 @@ export const dictionaries = [
       {
         surface_form: '来る',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '来る',
         reading: 'クル',
         pronunciation: 'クル',
@@ -964,35 +1037,10 @@ export const dictionaries = [
       {
         surface_form: '来れ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '来る',
         reading: 'クレ',
         pronunciation: 'クレ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くれ',
-    tokens: [
-      {
-        surface_form: '呉れ',
-        pos: '動詞',
-        basic_form: '呉れる',
-        reading: 'クレ',
-        pronunciation: 'クレ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くれる',
-    tokens: [
-      {
-        surface_form: '呉れる',
-        pos: '動詞',
-        basic_form: '呉れる',
-        reading: 'クレル',
-        pronunciation: 'クレル',
       },
     ],
   },
@@ -1003,6 +1051,7 @@ export const dictionaries = [
       {
         surface_form: '来',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '来る',
         reading: 'コ',
         pronunciation: 'コ',
@@ -1016,6 +1065,7 @@ export const dictionaries = [
       {
         surface_form: '来い',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '来る',
         reading: 'コイ',
         pronunciation: 'コイ',
@@ -1029,6 +1079,7 @@ export const dictionaries = [
       {
         surface_form: '来よ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '来る',
         reading: 'コヨ',
         pronunciation: 'コヨ',
@@ -1042,6 +1093,7 @@ export const dictionaries = [
       {
         surface_form: '見',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '見る',
         reading: 'ミ',
         pronunciation: 'ミ',
@@ -1055,6 +1107,7 @@ export const dictionaries = [
       {
         surface_form: '見よ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '見る',
         reading: 'ミヨ',
         pronunciation: 'ミヨ',
@@ -1068,6 +1121,7 @@ export const dictionaries = [
       {
         surface_form: '見る',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '見る',
         reading: 'ミル',
         pronunciation: 'ミル',
@@ -1081,6 +1135,7 @@ export const dictionaries = [
       {
         surface_form: '見れ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '見る',
         reading: 'ミレ',
         pronunciation: 'ミレ',
@@ -1094,6 +1149,7 @@ export const dictionaries = [
       {
         surface_form: '見ろ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '見る',
         reading: 'ミロ',
         pronunciation: 'ミロ',
@@ -1107,6 +1163,7 @@ export const dictionaries = [
       {
         surface_form: '貰い',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '貰う',
         reading: 'モライ',
         pronunciation: 'モライ',
@@ -1120,6 +1177,7 @@ export const dictionaries = [
       {
         surface_form: '貰う',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '貰う',
         reading: 'モラウ',
         pronunciation: 'モラウ',
@@ -1133,6 +1191,7 @@ export const dictionaries = [
       {
         surface_form: '貰え',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '貰える',
         reading: 'モラエ',
         pronunciation: 'モラエ',
@@ -1146,6 +1205,7 @@ export const dictionaries = [
       {
         surface_form: '貰お',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '貰う',
         reading: 'モラオ',
         pronunciation: 'モラオ',
@@ -1159,6 +1219,7 @@ export const dictionaries = [
       {
         surface_form: '貰っ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '貰う',
         reading: 'モラッ',
         pronunciation: 'モラッ',
@@ -1172,6 +1233,7 @@ export const dictionaries = [
       {
         surface_form: '貰わ',
         pos: '動詞',
+        pos_detail_1: '非自立',
         basic_form: '貰う',
         reading: 'モラワ',
         pronunciation: 'モラワ',
