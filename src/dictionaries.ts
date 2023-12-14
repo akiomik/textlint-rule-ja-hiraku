@@ -15,14 +15,14 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'さらに',
+    expected: 'いっそう',
     tokens: [
       {
-        surface_form: '更に',
+        surface_form: '一層',
         pos: '副詞',
-        basic_form: '更に',
-        reading: 'サラニ',
-        pronunciation: 'サラニ',
+        basic_form: '一層',
+        reading: 'イッソウ',
+        pronunciation: 'イッソー',
       },
     ],
   },
@@ -41,19 +41,6 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'たくさん',
-    tokens: [
-      {
-        surface_form: '沢山',
-        pos: '副詞',
-        basic_form: '沢山',
-        reading: 'タクサン',
-        pronunciation: 'タクサン',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'かえって',
     tokens: [
       {
@@ -67,19 +54,6 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いっそう',
-    tokens: [
-      {
-        surface_form: '一層',
-        pos: '副詞',
-        basic_form: '一層',
-        reading: 'イッソウ',
-        pronunciation: 'イッソー',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'きわめて',
     tokens: [
       {
@@ -88,6 +62,19 @@ export const dictionaries = [
         basic_form: '極めて',
         reading: 'キワメテ',
         pronunciation: 'キワメテ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'さらに',
+    tokens: [
+      {
+        surface_form: '更に',
+        pos: '副詞',
+        basic_form: '更に',
+        reading: 'サラニ',
+        pronunciation: 'サラニ',
       },
     ],
   },
@@ -169,6 +156,19 @@ export const dictionaries = [
   //     },
   //   ],
   // },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'たくさん',
+    tokens: [
+      {
+        surface_form: '沢山',
+        pos: '副詞',
+        basic_form: '沢山',
+        reading: 'タクサン',
+        pronunciation: 'タクサン',
+      },
+    ],
+  },
   // {
   //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
   //   expected: 'たとえ',
