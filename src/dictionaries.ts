@@ -344,6 +344,34 @@ export const dictionaries = [
   // 形式名詞
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'うえ',
+    tokens: [
+      {
+        surface_form: '上',
+        pos: '名詞',
+        pos_detail_1: '非自立',
+        basic_form: '上',
+        reading: 'ウエ',
+        pronunciation: 'ウエ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'うち',
+    tokens: [
+      {
+        surface_form: '内',
+        pos: '名詞',
+        pos_detail_1: '非自立',
+        basic_form: '内',
+        reading: 'ウチ',
+        pronunciation: 'ウチ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'こと',
     tokens: [
       {
@@ -356,6 +384,48 @@ export const dictionaries = [
       },
     ],
   },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ごと',
+    tokens: [
+      {
+        surface_form: '毎',
+        pos: '名詞',
+        // pos_detail_1: '非自立',
+        basic_form: '毎',
+        reading: 'ゴト',
+        pronunciation: 'ゴト',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ため',
+    tokens: [
+      {
+        surface_form: '為',
+        pos: '名詞',
+        // pos_detail_1: '非自立',
+        basic_form: '為',
+        reading: 'タメ',
+        pronunciation: 'タメ',
+      },
+    ],
+  },
+  // {
+  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   expected: 'とおり',
+  //   tokens: [
+  //     {
+  //       surface_form: '通り',
+  //       pos: '名詞',
+  //       pos_detail_1: '非自立',
+  //       basic_form: '通り',
+  //       reading: 'トオリ',
+  //       pronunciation: 'トーリ',
+  //     },
+  //   ],
+  // },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'とき',
@@ -386,6 +456,62 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'なか',
+    tokens: [
+      {
+        surface_form: '中',
+        pos: '名詞',
+        pos_detail_1: '非自立',
+        basic_form: '中',
+        reading: 'ナカ',
+        pronunciation: 'ナカ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'はず',
+    tokens: [
+      {
+        surface_form: '筈',
+        pos: '名詞',
+        // pos_detail_1: '非自立',
+        basic_form: '筈',
+        reading: 'ハズ',
+        pronunciation: 'ハズ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ほう',
+    tokens: [
+      {
+        surface_form: '方',
+        pos: '名詞',
+        // pos_detail_1: '非自立',
+        basic_form: '方',
+        reading: 'ホウ',
+        pronunciation: 'ホー',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ほか',
+    tokens: [
+      {
+        surface_form: '他',
+        pos: '名詞',
+        // pos_detail_1: '非自立',
+        basic_form: '他',
+        reading: 'ホカ',
+        pronunciation: 'ホカ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'もの',
     tokens: [
       {
@@ -400,53 +526,15 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ほう',
+    expected: 'よう',
     tokens: [
       {
-        surface_form: '方',
+        surface_form: '様',
         pos: '名詞',
-        basic_form: '方',
-        reading: 'ホウ',
-        pronunciation: 'ホー',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'うえ',
-    tokens: [
-      {
-        surface_form: '上',
-        pos: '名詞',
-        basic_form: '上',
-        reading: 'ウエ',
-        pronunciation: 'ウエ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ため',
-    tokens: [
-      {
-        surface_form: '為',
-        pos: '名詞',
-        basic_form: '為',
-        reading: 'タメ',
-        pronunciation: 'タメ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ごと',
-    tokens: [
-      {
-        surface_form: '毎',
-        pos: '名詞',
-        basic_form: '毎',
-        reading: 'ゴト',
-        pronunciation: 'ゴト',
+        // pos_detail_1: '非自立',
+        basic_form: '様',
+        reading: 'ヨウ',
+        pronunciation: 'ヨー',
       },
     ],
   },
@@ -457,88 +545,10 @@ export const dictionaries = [
       {
         surface_form: '訳',
         pos: '名詞',
+        // pos_detail_1: '非自立',
         basic_form: '訳',
         reading: 'ワケ',
         pronunciation: 'ワケ',
-      },
-    ],
-  },
-  // TODO:
-  // {
-  //   message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
-  //   expected: "とおり",
-  //   tokens: [
-  //     {
-  //       surface_form: "通り",
-  //       pos: "名詞",
-  //       basic_form: "通り",
-  //       reading: "トオリ",
-  //       pronunciation: "トーリ",
-  //     },
-  //   ],
-  // },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ほか',
-    tokens: [
-      {
-        surface_form: '他',
-        pos: '名詞',
-        basic_form: '他',
-        reading: 'ホカ',
-        pronunciation: 'ホカ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'うち',
-    tokens: [
-      {
-        surface_form: '内',
-        pos: '名詞',
-        basic_form: '内',
-        reading: 'ウチ',
-        pronunciation: 'ウチ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'なか',
-    tokens: [
-      {
-        surface_form: '中',
-        pos: '名詞',
-        basic_form: '中',
-        reading: 'ナカ',
-        pronunciation: 'ナカ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'よう',
-    tokens: [
-      {
-        surface_form: '様',
-        pos: '名詞',
-        basic_form: '様',
-        reading: 'ヨウ',
-        pronunciation: 'ヨー',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'はず',
-    tokens: [
-      {
-        surface_form: '筈',
-        pos: '名詞',
-        basic_form: '筈',
-        reading: 'ハズ',
-        pronunciation: 'ハズ',
       },
     ],
   },
