@@ -225,53 +225,14 @@ export const dictionaries = [
   // 接続詞
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ちなみに',
+    expected: 'および',
     tokens: [
       {
-        surface_form: '因みに',
+        surface_form: '及び',
         pos: '接続詞',
-        basic_form: '因みに',
-        reading: 'チナミニ',
-        pronunciation: 'チナミニ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'または',
-    tokens: [
-      {
-        surface_form: '又は',
-        pos: '接続詞',
-        basic_form: '又は',
-        reading: 'マタハ',
-        pronunciation: 'マタワ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'また',
-    tokens: [
-      {
-        surface_form: '又',
-        pos: '接続詞',
-        basic_form: '又',
-        reading: 'マタ',
-        pronunciation: 'マタ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ならびに',
-    tokens: [
-      {
-        surface_form: '並びに',
-        pos: '接続詞',
-        basic_form: '並びに',
-        reading: 'ナラビニ',
-        pronunciation: 'ナラビニ',
+        basic_form: '及び',
+        reading: 'オヨビ',
+        pronunciation: 'オヨビ',
       },
     ],
   },
@@ -285,19 +246,6 @@ export const dictionaries = [
         basic_form: '且つ',
         reading: 'カツ',
         pronunciation: 'カツ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'および',
-    tokens: [
-      {
-        surface_form: '及び',
-        pos: '接続詞',
-        basic_form: '及び',
-        reading: 'オヨビ',
-        pronunciation: 'オヨビ',
       },
     ],
   },
@@ -329,6 +277,19 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ちなみに',
+    tokens: [
+      {
+        surface_form: '因みに',
+        pos: '接続詞',
+        basic_form: '因みに',
+        reading: 'チナミニ',
+        pronunciation: 'チナミニ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'なお',
     tokens: [
       {
@@ -350,6 +311,32 @@ export const dictionaries = [
         basic_form: '並びに',
         reading: 'ナラビニ',
         pronunciation: 'ナラビニ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'また',
+    tokens: [
+      {
+        surface_form: '又',
+        pos: '接続詞',
+        basic_form: '又',
+        reading: 'マタ',
+        pronunciation: 'マタ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'または',
+    tokens: [
+      {
+        surface_form: '又は',
+        pos: '接続詞',
+        basic_form: '又は',
+        reading: 'マタハ',
+        pronunciation: 'マタワ',
       },
     ],
   },
