@@ -556,131 +556,27 @@ export const dictionaries = [
   // 補助動詞
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いただく',
+    expected: 'あげ',
     tokens: [
       {
-        surface_form: '頂く',
+        surface_form: '上げ',
         pos: '動詞',
-        basic_form: '頂く',
-        reading: 'イタダク',
-        pronunciation: 'イタダク',
+        basic_form: '上げる',
+        reading: 'アゲ',
+        pronunciation: 'アゲ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いただか',
+    expected: 'あげる',
     tokens: [
       {
-        surface_form: '頂か',
+        surface_form: '上げる',
         pos: '動詞',
-        basic_form: '頂く',
-        reading: 'イタダカ',
-        pronunciation: 'イタダカ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いただき',
-    tokens: [
-      {
-        surface_form: '頂き',
-        pos: '動詞',
-        basic_form: '頂く',
-        reading: 'イタダキ',
-        pronunciation: 'イタダキ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いただけ',
-    tokens: [
-      {
-        surface_form: '頂け',
-        pos: '動詞',
-        basic_form: '頂ける',
-        reading: 'イタダケ',
-        pronunciation: 'イタダケ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いただこ',
-    tokens: [
-      {
-        surface_form: '頂こ',
-        pos: '動詞',
-        basic_form: '頂く',
-        reading: 'イタダコ',
-        pronunciation: 'イタダコ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くださる',
-    tokens: [
-      {
-        surface_form: '下さる',
-        pos: '動詞',
-        basic_form: '下さる',
-        reading: 'クダサル',
-        pronunciation: 'クダサル',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くださら',
-    tokens: [
-      {
-        surface_form: '下さら',
-        pos: '動詞',
-        basic_form: '下さる',
-        reading: 'クダサラ',
-        pronunciation: 'クダサラ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ください',
-    tokens: [
-      {
-        surface_form: '下さい',
-        pos: '動詞',
-        basic_form: '下さる',
-        reading: 'クダサイ',
-        pronunciation: 'クダサイ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くださっ',
-    tokens: [
-      {
-        surface_form: '下さっ',
-        pos: '動詞',
-        basic_form: '下さる',
-        reading: 'クダサッ',
-        pronunciation: 'クダサッ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'ある',
-    tokens: [
-      {
-        surface_form: '有る',
-        pos: '動詞',
-        basic_form: '有る',
-        reading: 'アル',
-        pronunciation: 'アル',
+        basic_form: '上げる',
+        reading: 'アゲル',
+        pronunciation: 'アゲル',
       },
     ],
   },
@@ -699,6 +595,19 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ある',
+    tokens: [
+      {
+        surface_form: '有る',
+        pos: '動詞',
+        basic_form: '有る',
+        reading: 'アル',
+        pronunciation: 'アル',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'あれ',
     tokens: [
       {
@@ -707,84 +616,6 @@ export const dictionaries = [
         basic_form: '有る',
         reading: 'アレ',
         pronunciation: 'アレ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いる',
-    tokens: [
-      {
-        surface_form: '居る',
-        pos: '動詞',
-        basic_form: '居る',
-        reading: 'イル',
-        pronunciation: 'イル',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'い',
-    tokens: [
-      {
-        surface_form: '居',
-        pos: '動詞',
-        basic_form: '居る',
-        reading: 'イ',
-        pronunciation: 'イ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いれ',
-    tokens: [
-      {
-        surface_form: '居れ',
-        pos: '動詞',
-        basic_form: '居る',
-        reading: 'イレ',
-        pronunciation: 'イレ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いよ',
-    tokens: [
-      {
-        surface_form: '居よ',
-        pos: '動詞',
-        basic_form: '居る',
-        reading: 'イヨ',
-        pronunciation: 'イヨ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いろ',
-    tokens: [
-      {
-        surface_form: '居ろ',
-        pos: '動詞',
-        basic_form: '居る',
-        reading: 'イロ',
-        pronunciation: 'イロ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'いく',
-    tokens: [
-      {
-        surface_form: '行く',
-        pos: '動詞',
-        basic_form: '行く',
-        reading: 'イク',
-        pronunciation: 'イク',
       },
     ],
   },
@@ -811,6 +642,19 @@ export const dictionaries = [
         basic_form: '行く',
         reading: 'イキ',
         pronunciation: 'イキ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'いく',
+    tokens: [
+      {
+        surface_form: '行く',
+        pos: '動詞',
+        basic_form: '行く',
+        reading: 'イク',
+        pronunciation: 'イク',
       },
     ],
   },
@@ -855,131 +699,131 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くる',
+    expected: 'いただか',
     tokens: [
       {
-        surface_form: '来る',
+        surface_form: '頂か',
         pos: '動詞',
-        basic_form: '来る',
-        reading: 'クル',
-        pronunciation: 'クル',
+        basic_form: '頂く',
+        reading: 'イタダカ',
+        pronunciation: 'イタダカ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くれ',
+    expected: 'いただき',
     tokens: [
       {
-        surface_form: '来れ',
+        surface_form: '頂き',
         pos: '動詞',
-        basic_form: '来る',
-        reading: 'クレ',
-        pronunciation: 'クレ',
+        basic_form: '頂く',
+        reading: 'イタダキ',
+        pronunciation: 'イタダキ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'こ',
+    expected: 'いただく',
     tokens: [
       {
-        surface_form: '来',
+        surface_form: '頂く',
         pos: '動詞',
-        basic_form: '来る',
-        reading: 'コ',
-        pronunciation: 'コ',
+        basic_form: '頂く',
+        reading: 'イタダク',
+        pronunciation: 'イタダク',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'こよ',
+    expected: 'いただけ',
     tokens: [
       {
-        surface_form: '来よ',
+        surface_form: '頂け',
         pos: '動詞',
-        basic_form: '来る',
-        reading: 'コヨ',
-        pronunciation: 'コヨ',
+        basic_form: '頂ける',
+        reading: 'イタダケ',
+        pronunciation: 'イタダケ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'こい',
+    expected: 'いただこ',
     tokens: [
       {
-        surface_form: '来い',
+        surface_form: '頂こ',
         pos: '動詞',
-        basic_form: '来る',
-        reading: 'コイ',
-        pronunciation: 'コイ',
+        basic_form: '頂く',
+        reading: 'イタダコ',
+        pronunciation: 'イタダコ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'みる',
+    expected: 'い',
     tokens: [
       {
-        surface_form: '見る',
+        surface_form: '居',
         pos: '動詞',
-        basic_form: '見る',
-        reading: 'ミル',
-        pronunciation: 'ミル',
+        basic_form: '居る',
+        reading: 'イ',
+        pronunciation: 'イ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'み',
+    expected: 'いよ',
     tokens: [
       {
-        surface_form: '見',
+        surface_form: '居よ',
         pos: '動詞',
-        basic_form: '見る',
-        reading: 'ミ',
-        pronunciation: 'ミ',
+        basic_form: '居る',
+        reading: 'イヨ',
+        pronunciation: 'イヨ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'みれ',
+    expected: 'いる',
     tokens: [
       {
-        surface_form: '見れ',
+        surface_form: '居る',
         pos: '動詞',
-        basic_form: '見る',
-        reading: 'ミレ',
-        pronunciation: 'ミレ',
+        basic_form: '居る',
+        reading: 'イル',
+        pronunciation: 'イル',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'みよ',
+    expected: 'いれ',
     tokens: [
       {
-        surface_form: '見よ',
+        surface_form: '居れ',
         pos: '動詞',
-        basic_form: '見る',
-        reading: 'ミヨ',
-        pronunciation: 'ミヨ',
+        basic_form: '居る',
+        reading: 'イレ',
+        pronunciation: 'イレ',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'みろ',
+    expected: 'いろ',
     tokens: [
       {
-        surface_form: '見ろ',
+        surface_form: '居ろ',
         pos: '動詞',
-        basic_form: '見る',
-        reading: 'ミロ',
-        pronunciation: 'ミロ',
+        basic_form: '居る',
+        reading: 'イロ',
+        pronunciation: 'イロ',
       },
     ],
   },
@@ -1050,14 +894,79 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'くれる',
+    expected: 'ください',
     tokens: [
       {
-        surface_form: '呉れる',
+        surface_form: '下さい',
         pos: '動詞',
-        basic_form: '呉れる',
-        reading: 'クレル',
-        pronunciation: 'クレル',
+        basic_form: '下さる',
+        reading: 'クダサイ',
+        pronunciation: 'クダサイ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'くださっ',
+    tokens: [
+      {
+        surface_form: '下さっ',
+        pos: '動詞',
+        basic_form: '下さる',
+        reading: 'クダサッ',
+        pronunciation: 'クダサッ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'くださら',
+    tokens: [
+      {
+        surface_form: '下さら',
+        pos: '動詞',
+        basic_form: '下さる',
+        reading: 'クダサラ',
+        pronunciation: 'クダサラ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'くださる',
+    tokens: [
+      {
+        surface_form: '下さる',
+        pos: '動詞',
+        basic_form: '下さる',
+        reading: 'クダサル',
+        pronunciation: 'クダサル',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'くる',
+    tokens: [
+      {
+        surface_form: '来る',
+        pos: '動詞',
+        basic_form: '来る',
+        reading: 'クル',
+        pronunciation: 'クル',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'くれ',
+    tokens: [
+      {
+        surface_form: '来れ',
+        pos: '動詞',
+        basic_form: '来る',
+        reading: 'クレ',
+        pronunciation: 'クレ',
       },
     ],
   },
@@ -1076,27 +985,118 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'もらう',
+    expected: 'くれる',
     tokens: [
       {
-        surface_form: '貰う',
+        surface_form: '呉れる',
         pos: '動詞',
-        basic_form: '貰う',
-        reading: 'モラウ',
-        pronunciation: 'モラウ',
+        basic_form: '呉れる',
+        reading: 'クレル',
+        pronunciation: 'クレル',
       },
     ],
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'もらわ',
+    expected: 'こ',
     tokens: [
       {
-        surface_form: '貰わ',
+        surface_form: '来',
         pos: '動詞',
-        basic_form: '貰う',
-        reading: 'モラワ',
-        pronunciation: 'モラワ',
+        basic_form: '来る',
+        reading: 'コ',
+        pronunciation: 'コ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'こい',
+    tokens: [
+      {
+        surface_form: '来い',
+        pos: '動詞',
+        basic_form: '来る',
+        reading: 'コイ',
+        pronunciation: 'コイ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'こよ',
+    tokens: [
+      {
+        surface_form: '来よ',
+        pos: '動詞',
+        basic_form: '来る',
+        reading: 'コヨ',
+        pronunciation: 'コヨ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'み',
+    tokens: [
+      {
+        surface_form: '見',
+        pos: '動詞',
+        basic_form: '見る',
+        reading: 'ミ',
+        pronunciation: 'ミ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'みよ',
+    tokens: [
+      {
+        surface_form: '見よ',
+        pos: '動詞',
+        basic_form: '見る',
+        reading: 'ミヨ',
+        pronunciation: 'ミヨ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'みる',
+    tokens: [
+      {
+        surface_form: '見る',
+        pos: '動詞',
+        basic_form: '見る',
+        reading: 'ミル',
+        pronunciation: 'ミル',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'みれ',
+    tokens: [
+      {
+        surface_form: '見れ',
+        pos: '動詞',
+        basic_form: '見る',
+        reading: 'ミレ',
+        pronunciation: 'ミレ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'みろ',
+    tokens: [
+      {
+        surface_form: '見ろ',
+        pos: '動詞',
+        basic_form: '見る',
+        reading: 'ミロ',
+        pronunciation: 'ミロ',
       },
     ],
   },
@@ -1110,6 +1110,19 @@ export const dictionaries = [
         basic_form: '貰う',
         reading: 'モライ',
         pronunciation: 'モライ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'もらう',
+    tokens: [
+      {
+        surface_form: '貰う',
+        pos: '動詞',
+        basic_form: '貰う',
+        reading: 'モラウ',
+        pronunciation: 'モラウ',
       },
     ],
   },
@@ -1154,27 +1167,14 @@ export const dictionaries = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'あげる',
+    expected: 'もらわ',
     tokens: [
       {
-        surface_form: '上げる',
+        surface_form: '貰わ',
         pos: '動詞',
-        basic_form: '上げる',
-        reading: 'アゲル',
-        pronunciation: 'アゲル',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'あげ',
-    tokens: [
-      {
-        surface_form: '上げ',
-        pos: '動詞',
-        basic_form: '上げる',
-        reading: 'アゲ',
-        pronunciation: 'アゲ',
+        basic_form: '貰う',
+        reading: 'モラワ',
+        pronunciation: 'モラワ',
       },
     ],
   },
