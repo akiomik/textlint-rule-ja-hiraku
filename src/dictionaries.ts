@@ -65,6 +65,162 @@ export const dictionaries = [
       },
     ],
   },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'いっそう',
+    tokens: [
+      {
+        surface_form: '一層',
+        pos: '副詞',
+        basic_form: '一層',
+        reading: 'イッソウ',
+        pronunciation: 'イッソー',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'きわめて',
+    tokens: [
+      {
+        surface_form: '極めて',
+        pos: '副詞',
+        basic_form: '極めて',
+        reading: 'キワメテ',
+        pronunciation: 'キワメテ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'しばらく',
+    tokens: [
+      {
+        surface_form: '暫く',
+        pos: '副詞',
+        basic_form: '暫く',
+        reading: 'シバラク',
+        pronunciation: 'シバラク',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ずいぶん',
+    tokens: [
+      {
+        surface_form: '随分',
+        pos: '副詞',
+        basic_form: '随分',
+        reading: 'ズイブン',
+        pronunciation: 'ズイブン',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'すでに',
+    tokens: [
+      {
+        surface_form: '既に',
+        pos: '副詞',
+        basic_form: '既に',
+        reading: 'スデニ',
+        pronunciation: 'スデニ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ぜひ',
+    tokens: [
+      {
+        surface_form: '是非',
+        pos: '副詞',
+        basic_form: '是非',
+        reading: 'ゼヒ',
+        pronunciation: 'ゼヒ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'たいそう',
+    tokens: [
+      {
+        surface_form: '大層',
+        pos: '副詞',
+        basic_form: '大層',
+        reading: 'タイソウ',
+        pronunciation: 'タイソー',
+      },
+    ],
+  },
+  // {
+  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   expected: 'たいへん',
+  //   tokens: [
+  //     {
+  //       surface_form: '大変',
+  //       pos: '副詞',
+  //       basic_form: '大変',
+  //       reading: 'タイヘン',
+  //       pronunciation: 'タイヘン',
+  //     },
+  //   ],
+  // },
+  // {
+  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   expected: 'たとえ',
+  //   tokens: [
+  //     {
+  //       surface_form: '例え',
+  //       pos: '副詞',
+  //       basic_form: '例え',
+  //       reading: 'タトエ',
+  //       pronunciation: 'タトエ',
+  //     },
+  //   ],
+  // },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ときどき',
+    tokens: [
+      {
+        surface_form: '時々',
+        pos: '副詞',
+        basic_form: '時々',
+        reading: 'トキドキ',
+        pronunciation: 'トキドキ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'なぜ',
+    tokens: [
+      {
+        surface_form: '何故',
+        pos: '副詞',
+        basic_form: '何故',
+        reading: 'ナゼ',
+        pronunciation: 'ナゼ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'なぜか',
+    tokens: [
+      {
+        surface_form: '何故か',
+        pos: '副詞',
+        basic_form: '何故か',
+        reading: 'ナゼカ',
+        pronunciation: 'ナゼカ',
+      },
+    ],
+  },
 
   // 接続詞
   {
