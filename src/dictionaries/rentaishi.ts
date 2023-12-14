@@ -37,7 +37,7 @@ export const rentaishi = [
   // },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'このまえ',
+    expected: 'この前',
     tokens: [
       {
         surface_form: '此の前',
