@@ -2,6 +2,7 @@ import type { TextlintRuleModule } from '@textlint/types';
 import { tokenize } from 'kuromojin';
 import { createTextlintMatcher } from 'morpheme-match-textlint';
 
+import { fukujoshi } from './dictionaries/fukujoshi';
 import { fukushi } from './dictionaries/fukushi';
 import { hojodoushi } from './dictionaries/hojodoushi';
 import { keishikimeishi } from './dictionaries/keishikimeishi';
@@ -14,6 +15,7 @@ import { rentaishi } from './dictionaries/rentaishi';
 import { setsuzokushi } from './dictionaries/setsuzokushi';
 
 const dictionaries = [
+  ...fukujoshi,
   ...fukushi,
   ...hojodoushi,
   ...keishikimeishi,
