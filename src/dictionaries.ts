@@ -529,6 +529,19 @@ export const dictionaries = [
       },
     ],
   },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'はず',
+    tokens: [
+      {
+        surface_form: '筈',
+        pos: '名詞',
+        basic_form: '筈',
+        reading: 'ハズ',
+        pronunciation: 'ハズ',
+      },
+    ],
+  },
 
   // 補助動詞
   {
