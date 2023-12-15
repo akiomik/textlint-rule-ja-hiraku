@@ -13,18 +13,6 @@ export const otherMeishi = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'わずか',
-    tokens: [
-      {
-        surface_form: '僅か',
-        pos: '名詞',
-        basic_form: '僅か',
-        reading: 'ワズカ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'はじめ',
     tokens: [
       {
@@ -56,6 +44,18 @@ export const otherMeishi = [
         pos: '名詞',
         basic_form: 'もっての外',
         reading: 'モッテノホカ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'わずか',
+    tokens: [
+      {
+        surface_form: '僅か',
+        pos: '名詞',
+        basic_form: '僅か',
+        reading: 'ワズカ',
       },
     ],
   },
