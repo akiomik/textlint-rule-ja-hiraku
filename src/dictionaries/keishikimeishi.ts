@@ -53,6 +53,19 @@ export const keishikimeishi = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'たび',
+    tokens: [
+      {
+        surface_form: '度',
+        pos: '名詞',
+        // pos_detail_1: '非自立',
+        basic_form: '度',
+        reading: 'タビ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'ため',
     tokens: [
       {
