@@ -13,6 +13,18 @@ export const fukushi = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'いかにも',
+    tokens: [
+      {
+        surface_form: '如何にも',
+        pos: '副詞',
+        basic_form: '如何にも',
+        reading: 'イカニモ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'いっそう',
     tokens: [
       {
@@ -32,6 +44,18 @@ export const fukushi = [
         basic_form: '色々',
         pos: '副詞',
         reading: 'イロイロ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'およそ',
+    tokens: [
+      {
+        surface_form: '凡そ',
+        basic_form: '凡そ',
+        pos: '副詞',
+        reading: 'オヨソ',
       },
     ],
   },
@@ -200,6 +224,78 @@ export const fukushi = [
         pos: '副詞',
         basic_form: '何故か',
         reading: 'ナゼカ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ほとんど',
+    tokens: [
+      {
+        surface_form: '殆ど',
+        pos: '副詞',
+        basic_form: '殆ど',
+        reading: 'ホトンド',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'まさに',
+    tokens: [
+      {
+        surface_form: '正に',
+        pos: '副詞',
+        basic_form: '正に',
+        reading: 'マサニ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'まず',
+    tokens: [
+      {
+        surface_form: '先ず',
+        pos: '副詞',
+        basic_form: '先ず',
+        reading: 'マズ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'むしろ',
+    tokens: [
+      {
+        surface_form: '寧ろ',
+        pos: '副詞',
+        basic_form: '寧ろ',
+        reading: 'ムシロ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'もちろん',
+    tokens: [
+      {
+        surface_form: '勿論',
+        pos: '副詞',
+        basic_form: '勿論',
+        reading: 'モチロン',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ようやく',
+    tokens: [
+      {
+        surface_form: '漸く',
+        pos: '副詞',
+        basic_form: '漸く',
+        reading: 'ヨウヤク',
       },
     ],
   },
