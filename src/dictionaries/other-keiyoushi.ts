@@ -13,42 +13,6 @@ export const otherKeiyoushi = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'かたい',
-    tokens: [
-      {
-        surface_form: '固い',
-        pos: '形容詞',
-        basic_form: '固い',
-        reading: 'カタイ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'かたい',
-    tokens: [
-      {
-        surface_form: '硬い',
-        pos: '形容詞',
-        basic_form: '硬い',
-        reading: 'カタイ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
-    expected: 'かたい',
-    tokens: [
-      {
-        surface_form: '堅い',
-        pos: '形容詞',
-        basic_form: '堅い',
-        reading: 'カタイ',
-      },
-    ],
-  },
-  {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'ない',
     tokens: [
       {
