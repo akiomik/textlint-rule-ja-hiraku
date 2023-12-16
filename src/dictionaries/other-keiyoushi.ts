@@ -1,6 +1,18 @@
 export const otherKeiyoushi = [
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ありがたい',
+    tokens: [
+      {
+        surface_form: '有難い',
+        pos: '形容詞',
+        basic_form: '有難い',
+        reading: 'アリガタイ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'うまく',
     tokens: [
       {
@@ -8,6 +20,18 @@ export const otherKeiyoushi = [
         pos: '形容詞',
         basic_form: '上手い',
         reading: 'ウマク',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'おかしい',
+    tokens: [
+      {
+        surface_form: '可笑しい',
+        pos: '形容詞',
+        basic_form: '可笑しい',
+        reading: 'オカシイ',
       },
     ],
   },
