@@ -1,6 +1,18 @@
 export const fukushi = [
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'あまり',
+    tokens: [
+      {
+        surface_form: '余り',
+        pos: '副詞',
+        basic_form: '余り',
+        reading: 'アマリ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'あとで',
     tokens: [
       {
@@ -85,6 +97,18 @@ export const fukushi = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'さすが',
+    tokens: [
+      {
+        surface_form: '流石',
+        // pos: '副詞',
+        basic_form: '流石',
+        reading: 'サスガ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'さらに',
     tokens: [
       {
@@ -128,6 +152,18 @@ export const fukushi = [
         pos: '副詞',
         basic_form: '既に',
         reading: 'スデニ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'せっかく',
+    tokens: [
+      {
+        surface_form: '折角',
+        // pos: '副詞',
+        basic_form: '折角',
+        reading: 'セッカク',
       },
     ],
   },
@@ -308,6 +344,18 @@ export const fukushi = [
         pos: '副詞',
         basic_form: '漸く',
         reading: 'ヨウヤク',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'よろしく',
+    tokens: [
+      {
+        surface_form: '宜しく',
+        pos: '副詞',
+        basic_form: '宜しく',
+        reading: 'ヨロシク',
       },
     ],
   },
