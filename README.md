@@ -48,12 +48,13 @@ textlint --rule ja-hiraku README.md
 形態素の格ごとにチェックするかどうかを切り替え可能です。
 
 デフォルトでは全てチェック対象となっていますが、
-ほどんどのケースでは以下のように副助詞・副詞・補助動詞・形式名詞・連体詞・接続詞のチェックだけで十分かもしれません。
+ほどんどのケースでは以下のように代名詞・副助詞・副詞・補助動詞・形式名詞・連体詞・接続詞のチェックだけで十分かもしれません。
 
 ```jsonc
 {
   "rules": {
     "ja-hiraku": {
+      "daimeishi": true,        // 代名詞のチェック (default: true)
       "fukujoshi": true,        // 副助詞のチェック (default: true)
       "fukushi": true,          // 副詞のチェック (default: true)
       "hojodoushi": true,       // 補助動詞のチェック (default: true)
