@@ -4,12 +4,10 @@
 [![Node.js CI](https://github.com/akiomik/textlint-rule-ja-hiraku/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/textlint-rule-ja-hiraku/actions/workflows/ci.yml)
 [![textlint rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/) 
 
-漢字を「ひらく」ためのtextlintルールです。
+`textlint-rule-ja-hiraku` は漢字を「ひらく」ためのtextlintルールです。
 
-「ひらく」というのは、漢字の読みや字面からくる印象などを考慮しひらがなで表記することで、読みやすく誤読しにくい文章へと変えることです。
+「ひらく」というのは、漢字の読みや文字から受ける印象を考慮し一部をひらがなで表記することで、読みやすく誤読しにくい文章へと変えることです。
 漢字とひらがな、どちらで書くかが統一されるので、表記揺れを減らすことにも繋がります。
-
-`textlint-rule-ja-hiraku` を使うことで文章を簡易的に校正できます。
 
 例:
 
