@@ -1,7 +1,8 @@
 {
   "version": "1.0.0",
   "keywords": [
-    "textlintrule"
+    "textlintrule",
+    "japanese"
   ],
   "main": "lib/index.js",
   "files": [
@@ -31,7 +32,7 @@
   },
   "author": "Akiomi Kamakura <akiomik@gmail.com>",
   "license": "Apache-2.0",
-  "description": "漢字をひらくためのtextlintルール",
+  "description": "漢字を「ひらく」ためのtextlintルール",
   "repository": {
     "type": "git",
     "url": "https://github.com/akiomik/textlint-rule-ja-hiraku.git"
