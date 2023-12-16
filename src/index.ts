@@ -2,34 +2,14 @@ import type { TextlintRuleModule } from '@textlint/types';
 import { tokenize } from 'kuromojin';
 import { createTextlintMatcher } from 'morpheme-match-textlint';
 
-import { fukujoshi } from './dictionaries/fukujoshi';
-import { fukushi } from './dictionaries/fukushi';
-import { hojodoushi } from './dictionaries/hojodoushi';
-import { keishikimeishi } from './dictionaries/keishikimeishi';
-import { otherDoushi } from './dictionaries/other-doushi';
-import { otherJodoushi } from './dictionaries/other-jodoushi';
-import { otherKandoushi } from './dictionaries/other-kandoushi';
-import { otherKeiyoushi } from './dictionaries/other-keiyoushi';
-import { otherMeishi } from './dictionaries/other-meishi';
-import { rentaishi } from './dictionaries/rentaishi';
-import { setsuzokushi } from './dictionaries/setsuzokushi';
+import { DictionaryLoader } from './loader';
+import type { DictOpts } from './opts';
 
-const dictionaries = [
-  ...fukujoshi,
-  ...fukushi,
-  ...hojodoushi,
-  ...keishikimeishi,
-  ...otherDoushi,
-  ...otherJodoushi,
-  ...otherKandoushi,
-  ...otherKeiyoushi,
-  ...otherMeishi,
-  ...rentaishi,
-  ...setsuzokushi,
-];
-
-const report: TextlintRuleModule = (context) => {
+const report: TextlintRuleModule = (context, options) => {
   const { Syntax, RuleError, report, getSource, fixer } = context;
+
+  const loader = new DictionaryLoader(options as DictOpts);
+  const dictionaries = loader.load();
   const matchAll = createTextlintMatcher({ tokenize, dictionaries });
 
   return {
