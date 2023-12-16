@@ -37,10 +37,7 @@ export class DictionaryLoader {
     this.options = { ...defaultOpts, ...options };
   }
 
-  load<
-    T extends ExpectedTokenWithCapture,
-    Dictionary extends ExpectedDictionary<T>,
-  >(): Dictionary[] {
+  load<T extends ExpectedTokenWithCapture, Dictionary extends ExpectedDictionary<T>>(): Dictionary[] {
     let dict = [] as Dictionary[];
 
     if (this.options.daimeishi) {

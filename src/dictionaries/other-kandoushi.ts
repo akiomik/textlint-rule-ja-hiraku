@@ -1,6 +1,6 @@
 export const otherKandoushi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい感動詞を使用しています: 有難う',
     expected: 'ありがとう',
     tokens: [
       {

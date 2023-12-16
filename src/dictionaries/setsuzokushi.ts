@@ -1,6 +1,6 @@
 export const setsuzokushi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 或いは',
     expected: 'あるいは',
     tokens: [
       {
@@ -12,7 +12,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 及び',
     expected: 'および',
     tokens: [
       {
@@ -24,7 +24,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 且つ',
     expected: 'かつ',
     tokens: [
       {
@@ -36,7 +36,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 従って',
     expected: 'したがって',
     tokens: [
       {
@@ -48,7 +48,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 即ち',
     expected: 'すなわち',
     tokens: [
       {
@@ -60,7 +60,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 但し',
     expected: 'ただし',
     tokens: [
       {
@@ -72,7 +72,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 因みに',
     expected: 'ちなみに',
     tokens: [
       {
@@ -84,7 +84,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 尚',
     expected: 'なお',
     tokens: [
       {
@@ -96,7 +96,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 並びに',
     expected: 'ならびに',
     tokens: [
       {
@@ -108,7 +108,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 又',
     expected: 'また',
     tokens: [
       {
@@ -120,7 +120,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 又は',
     expected: 'または',
     tokens: [
       {
@@ -132,7 +132,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 若しくは',
     expected: 'もしくは',
     tokens: [
       {
@@ -144,7 +144,7 @@ export const setsuzokushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい接続詞を使用しています: 故に',
     expected: 'ゆえに',
     tokens: [
       {

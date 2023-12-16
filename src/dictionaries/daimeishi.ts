@@ -1,6 +1,6 @@
 export const daimeishi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 貴方',
     expected: 'あなた',
     tokens: [
       {
@@ -13,7 +13,7 @@ export const daimeishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 何れ',
     expected: 'いずれ',
     tokens: [
       {
@@ -26,7 +26,7 @@ export const daimeishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 此処',
     expected: 'ここ',
     tokens: [
       {
@@ -39,7 +39,7 @@ export const daimeishi = [
     ],
   },
   // {
-  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 此れ',
   //   expected: 'これ',
   //   tokens: [
   //     {
@@ -52,7 +52,7 @@ export const daimeishi = [
   //   ],
   // },
   // {
-  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 其処',
   //   expected: 'そこ',
   //   tokens: [
   //     {
@@ -65,7 +65,7 @@ export const daimeishi = [
   //   ],
   // },
   // {
-  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 其れ',
   //   expected: 'それ',
   //   tokens: [
   //     {
@@ -78,7 +78,7 @@ export const daimeishi = [
   //   ],
   // },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 何処',
     expected: 'どこ',
     tokens: [
       {
@@ -91,7 +91,7 @@ export const daimeishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい代名詞を使用しています: 何方',
     expected: 'どなた',
     tokens: [
       {

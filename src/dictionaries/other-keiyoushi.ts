@@ -1,6 +1,6 @@
 export const otherKeiyoushi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 有難い',
     expected: 'ありがたい',
     tokens: [
       {
@@ -12,7 +12,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 上手く',
     expected: 'うまく',
     tokens: [
       {
@@ -24,7 +24,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 可笑しい',
     expected: 'おかしい',
     tokens: [
       {
@@ -36,7 +36,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 無い',
     expected: 'ない',
     tokens: [
       {
@@ -48,7 +48,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 不味い',
     expected: 'まずい',
     tokens: [
       {
@@ -60,7 +60,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 勿体ない',
     expected: 'もったいない',
     tokens: [
       {
@@ -72,7 +72,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 良い',
     expected: 'よい',
     tokens: [
       {
@@ -84,7 +84,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 良かっ',
     expected: 'よかっ',
     tokens: [
       {
@@ -96,7 +96,7 @@ export const otherKeiyoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい形容詞を使用しています: 良く',
     expected: 'よく',
     tokens: [
       {

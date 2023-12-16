@@ -1,6 +1,6 @@
 export const otherJodoushi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい助動詞を使用しています: 御座い',
     expected: 'ござい',
     tokens: [
       {

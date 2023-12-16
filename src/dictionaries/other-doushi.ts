@@ -1,6 +1,6 @@
 export const otherDoushi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 分かる',
     expected: 'わかる',
     tokens: [
       {
@@ -12,7 +12,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 分から',
     expected: 'わから',
     tokens: [
       {
@@ -24,7 +24,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 分かり',
     expected: 'わかり',
     tokens: [
       {
@@ -36,7 +36,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 分かろ',
     expected: 'わかろ',
     tokens: [
       {
@@ -48,7 +48,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 分かっ',
     expected: 'わかっ',
     tokens: [
       {
@@ -60,7 +60,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 出来る',
     expected: 'できる',
     tokens: [
       {
@@ -72,7 +72,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 出来',
     expected: 'でき',
     tokens: [
       {
@@ -84,7 +84,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 纏める',
     expected: 'まとめる',
     tokens: [
       {
@@ -96,7 +96,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 纏め',
     expected: 'まとめ',
     tokens: [
       {
@@ -108,7 +108,7 @@ export const otherDoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい動詞を使用しています: 纏めよ',
     expected: 'まとめよ',
     tokens: [
       {
@@ -120,7 +120,7 @@ export const otherDoushi = [
     ],
   },
   // {
-  //   message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+  //   message: "平仮名にひらいたほうが読みやすい動詞を使用しています: 拘り",
   //   expected: "拘り",
   //   tokens: [
   //     {
@@ -132,7 +132,7 @@ export const otherDoushi = [
   //   ],
   // },
   // {
-  //   message: "平仮名にひらいたほうが読みやすい漢字を使用しています。",
+  //   message: "平仮名にひらいたほうが読みやすい動詞を使用しています: 弄る",
   //   expected: "弄る",
   //   tokens: [
   //     {
