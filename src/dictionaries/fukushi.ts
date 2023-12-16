@@ -193,6 +193,18 @@ export const fukushi = [
   // },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ちょうど',
+    tokens: [
+      {
+        surface_form: '丁度',
+        pos: '副詞',
+        basic_form: '丁度',
+        reading: 'チョウド',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'ときどき',
     tokens: [
       {
