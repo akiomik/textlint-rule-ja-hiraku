@@ -1,6 +1,7 @@
 import type { ExpectedDictionary } from 'morpheme-match-all';
 import type { ExpectedTokenWithCapture } from 'morpheme-match-textlint';
 
+import { daimeishi } from './dictionaries/daimeishi';
 import { fukujoshi } from './dictionaries/fukujoshi';
 import { fukushi } from './dictionaries/fukushi';
 import { hojodoushi } from './dictionaries/hojodoushi';
@@ -15,6 +16,7 @@ import { setsuzokushi } from './dictionaries/setsuzokushi';
 import type { DictOpts } from './opts';
 
 const defaultOpts: DictOpts = {
+  daimeishi: true,
   fukushi: true,
   fukujoshi: true,
   hojodoushi: true,
@@ -41,8 +43,12 @@ export class DictionaryLoader {
   >(): Dictionary[] {
     let dict = [] as Dictionary[];
 
+    if (this.options.daimeishi) {
+      dict = [...(daimeishi as Dictionary[])];
+    }
+
     if (this.options.fukujoshi) {
-      dict = [...(fukujoshi as Dictionary[])];
+      dict = [...dict, ...(fukujoshi as Dictionary[])];
     }
 
     if (this.options.fukushi) {

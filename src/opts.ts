@@ -1,4 +1,5 @@
 export interface DictOpts {
+  daimeishi: boolean;
   fukushi: boolean;
   fukujoshi: boolean;
   hojodoushi: boolean;
