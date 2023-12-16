@@ -3,7 +3,20 @@
 [![Node.js CI](https://github.com/akiomik/textlint-rule-ja-hiraku/actions/workflows/ci.yml/badge.svg)](https://github.com/akiomik/textlint-rule-ja-hiraku/actions/workflows/ci.yml)
 [![textlint rule](https://img.shields.io/badge/textlint-fixable-green.svg?style=social)](https://textlint.github.io/) 
 
-漢字をひらくためのtextlintルール
+漢字を「ひらく」ためのtextlintルールです。
+
+「ひらく」というのは、漢字の読みや字面からくる印象などを考慮しひらがなで表記することで、読みやすく誤読しにくい文章へと変えることです。
+漢字とひらがな、どちらで書くかが統一されるので、表記揺れを減らすことにも繋がります。
+
+`textlint-rule-ja-hiraku` を使うことで文章を簡易的に校正できます。
+
+例:
+
+```
+丁度良かった。色々話を聞いて頂きたいと思っていた所でした。
+↓
+ちょうどよかった。いろいろ話を聞いて頂きたいと思っていたところでした。
+```
 
 ## インストール
 
@@ -47,8 +60,9 @@ npm test
 
 ## 参考文献
 
-開発するにあたり、以下のページを参考にさせていただきました。
+開発するにあたり、以下の書籍やページを参考にさせていただきました。
 
+- [＜新版＞日本語の作文技術 - 本多勝一](https://publications.asahi.com/ecs/detail/?item_id=17593)
 - [「なぜ、“ひらく”のか」への考察 - 鷹野 雅弘](https://note.com/swwwitch/n/n105a095c0687)
 - [【校正】ひらく漢字の決定版！常用漢字表（H22改正）ほか - ことばのよろず屋](https://kotobanoyorozuya.com/hiraku-ichiran/)
 - [漢字の閉じ開きとは？漢字とひらがなを使い分けて読みやすい文章を作成しよう - ALTENAS](https://altenas.jp/blog/chinese-characters-close-up-or-open)
