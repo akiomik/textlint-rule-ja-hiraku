@@ -1,6 +1,18 @@
 export const setsuzokushi = [
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'あるいは',
+    tokens: [
+      {
+        surface_form: '或いは',
+        pos: '接続詞',
+        basic_form: '或いは',
+        reading: 'アルイハ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'および',
     tokens: [
       {
@@ -32,6 +44,18 @@ export const setsuzokushi = [
         pos: '接続詞',
         basic_form: '従って',
         reading: 'シタガッテ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'すなわち',
+    tokens: [
+      {
+        surface_form: '即ち',
+        pos: '接続詞',
+        basic_form: '即ち',
+        reading: 'スナワチ',
       },
     ],
   },
@@ -104,6 +128,30 @@ export const setsuzokushi = [
         pos: '接続詞',
         basic_form: '又は',
         reading: 'マタハ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'もしくは',
+    tokens: [
+      {
+        surface_form: '若しくは',
+        pos: '接続詞',
+        basic_form: '若しくは',
+        reading: 'モシクハ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'ゆえに',
+    tokens: [
+      {
+        surface_form: '故に',
+        pos: '接続詞',
+        basic_form: '故に',
+        reading: 'ユエニ',
       },
     ],
   },
