@@ -3,6 +3,15 @@ import rule from '../src/index';
 
 const tester = new TextLintTester();
 tester.run('代名詞', rule, {
+  valid: [
+    '私が町長です',
+    '僕が町長です',
+    '我が町長です',
+    '君が町長です',
+    '彼が町長です',
+    '彼女が町長です',
+    '自分が町長です',
+  ],
   invalid: [
     {
       text: '貴方にはわからないでしょうね',
