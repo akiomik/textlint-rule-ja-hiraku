@@ -5,12 +5,32 @@ const tester = new TextLintTester();
 tester.run('その他 (形容詞)', rule, {
   invalid: [
     {
+      text: '有難いことに仕事が増えている',
+      output: 'ありがたいことに仕事が増えている',
+      errors: [
+        {
+          message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+          range: [0, 1],
+        },
+      ],
+    },
+    {
       text: 'アムロ、上手くやれよ',
       output: 'アムロ、うまくやれよ',
       errors: [
         {
           message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
           range: [4, 5],
+        },
+      ],
+    },
+    {
+      text: '可笑しいお菓子',
+      output: 'おかしいお菓子',
+      errors: [
+        {
+          message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+          range: [0, 1],
         },
       ],
     },
