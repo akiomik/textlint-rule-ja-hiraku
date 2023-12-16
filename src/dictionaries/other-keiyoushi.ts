@@ -97,6 +97,18 @@ export const otherKeiyoushi = [
   },
   {
     message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    expected: 'よかっ',
+    tokens: [
+      {
+        surface_form: '良かっ',
+        pos: '形容詞',
+        basic_form: '良い',
+        reading: 'ヨカッ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
     expected: 'よく',
     tokens: [
       {
