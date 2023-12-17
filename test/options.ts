@@ -8,9 +8,11 @@ const config = {
       ruleId: 'ja-hiraku',
       rule,
       options: {
+        daimeishi: false,
         fukujoshi: false,
         fukushi: false,
         hojodoushi: false,
+        hojokeiyoushi: false,
         keishikimeishi: false,
         'other-doushi': false,
         'other-jodoushi': false,

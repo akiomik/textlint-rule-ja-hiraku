@@ -5,6 +5,7 @@ import { daimeishi } from './dictionaries/daimeishi';
 import { fukujoshi } from './dictionaries/fukujoshi';
 import { fukushi } from './dictionaries/fukushi';
 import { hojodoushi } from './dictionaries/hojodoushi';
+import { hojokeiyoushi } from './dictionaries/hojokeiyoushi';
 import { keishikimeishi } from './dictionaries/keishikimeishi';
 import { otherDoushi } from './dictionaries/other-doushi';
 import { otherJodoushi } from './dictionaries/other-jodoushi';
@@ -20,6 +21,7 @@ const defaultOpts: DictOpts = {
   fukushi: true,
   fukujoshi: true,
   hojodoushi: true,
+  hojokeiyoushi: true,
   keishikimeishi: true,
   'other-doushi': true,
   'other-jodoushi': true,
@@ -54,6 +56,10 @@ export class DictionaryLoader {
 
     if (this.options.hojodoushi) {
       dict = [...dict, ...(hojodoushi as Dictionary[])];
+    }
+
+    if (this.options.hojokeiyoushi) {
+      dict = [...dict, ...(hojokeiyoushi as Dictionary[])];
     }
 
     if (this.options.keishikimeishi) {
