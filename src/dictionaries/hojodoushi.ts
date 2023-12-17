@@ -26,6 +26,45 @@ export const hojodoushi = [
     ],
   },
   {
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 上げれ',
+    expected: 'あげれ',
+    tokens: [
+      {
+        surface_form: '上げれ',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '上げる',
+        reading: 'アゲレ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 上げろ',
+    expected: 'あげろ',
+    tokens: [
+      {
+        surface_form: '上げろ',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '上げる',
+        reading: 'アゲロ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 上げよ',
+    expected: 'あげよ',
+    tokens: [
+      {
+        surface_form: '上げよ',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '上げる',
+        reading: 'アゲヨ',
+      },
+    ],
+  },
+  {
     message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 有り',
     expected: 'あり',
     tokens: [
@@ -139,6 +178,19 @@ export const hojodoushi = [
         pos_detail_1: '非自立',
         basic_form: '行く',
         reading: 'イッ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 頂い',
+    expected: 'いただい',
+    tokens: [
+      {
+        surface_form: '頂い',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '頂く',
+        reading: 'イタダイ',
       },
     ],
   },
@@ -269,6 +321,19 @@ export const hojodoushi = [
         pos_detail_1: '非自立',
         basic_form: '居る',
         reading: 'イロ',
+      },
+    ],
+  },
+  {
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 置い',
+    expected: 'おい',
+    tokens: [
+      {
+        surface_form: '置い',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '置く',
+        reading: 'オイ',
       },
     ],
   },
