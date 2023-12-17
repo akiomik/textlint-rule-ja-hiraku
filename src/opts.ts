@@ -3,6 +3,7 @@ export interface DictOpts {
   fukushi: boolean;
   fukujoshi: boolean;
   hojodoushi: boolean;
+  hojokeiyoushi: boolean;
   keishikimeishi: boolean;
   'other-doushi': boolean;
   'other-jodoushi': boolean;
