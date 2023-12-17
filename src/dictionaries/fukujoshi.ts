@@ -1,6 +1,6 @@
 export const fukujoshi = [
   // {
-  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   message: '平仮名にひらいたほうが読みやすい副助詞を使用しています: 位',
   //   expected: 'くらい',
   //   tokens: [
   //     {
@@ -13,7 +13,7 @@ export const fukujoshi = [
   //   ],
   // },
   // {
-  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   message: '平仮名にひらいたほうが読みやすい副助詞を使用しています: 等',
   //   expected: 'など',
   //   tokens: [
   //     {
@@ -26,7 +26,7 @@ export const fukujoshi = [
   //   ],
   // },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい副助詞を使用しています: 程',
     expected: 'ほど',
     tokens: [
       {
@@ -39,7 +39,7 @@ export const fukujoshi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい副助詞を使用しています: 迄',
     expected: 'まで',
     tokens: [
       {

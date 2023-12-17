@@ -1,6 +1,6 @@
 export const otherMeishi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい名詞を使用しています: 全て',
     expected: 'すべて',
     tokens: [
       {
@@ -12,7 +12,7 @@ export const otherMeishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい名詞を使用しています: 始め',
     expected: 'はじめ',
     tokens: [
       {
@@ -24,7 +24,7 @@ export const otherMeishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい名詞を使用しています: 初め',
     expected: 'はじめ',
     tokens: [
       {
@@ -36,7 +36,7 @@ export const otherMeishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい名詞を使用しています: もっての外',
     expected: 'もってのほか',
     tokens: [
       {
@@ -48,7 +48,7 @@ export const otherMeishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい名詞を使用しています: 僅か',
     expected: 'わずか',
     tokens: [
       {

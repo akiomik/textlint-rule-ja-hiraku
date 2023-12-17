@@ -1,6 +1,6 @@
 export const hojodoushi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 上げ',
     expected: 'あげ',
     tokens: [
       {
@@ -13,7 +13,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 上げる',
     expected: 'あげる',
     tokens: [
       {
@@ -26,7 +26,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 有り',
     expected: 'あり',
     tokens: [
       {
@@ -39,7 +39,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 有る',
     expected: 'ある',
     tokens: [
       {
@@ -52,7 +52,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 有れ',
     expected: 'あれ',
     tokens: [
       {
@@ -65,7 +65,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 行か',
     expected: 'いか',
     tokens: [
       {
@@ -78,7 +78,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 行き',
     expected: 'いき',
     tokens: [
       {
@@ -91,7 +91,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 行く',
     expected: 'いく',
     tokens: [
       {
@@ -104,7 +104,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 行け',
     expected: 'いけ',
     tokens: [
       {
@@ -117,7 +117,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 行こ',
     expected: 'いこ',
     tokens: [
       {
@@ -130,7 +130,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 行っ',
     expected: 'いっ',
     tokens: [
       {
@@ -143,7 +143,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 頂か',
     expected: 'いただか',
     tokens: [
       {
@@ -156,7 +156,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 頂き',
     expected: 'いただき',
     tokens: [
       {
@@ -169,7 +169,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 頂く',
     expected: 'いただく',
     tokens: [
       {
@@ -182,7 +182,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 頂け',
     expected: 'いただけ',
     tokens: [
       {
@@ -195,7 +195,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 頂こ',
     expected: 'いただこ',
     tokens: [
       {
@@ -208,7 +208,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 居',
     expected: 'い',
     tokens: [
       {
@@ -221,7 +221,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 居よ',
     expected: 'いよ',
     tokens: [
       {
@@ -234,7 +234,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 居る',
     expected: 'いる',
     tokens: [
       {
@@ -247,7 +247,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 居れ',
     expected: 'いれ',
     tokens: [
       {
@@ -260,7 +260,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 居ろ',
     expected: 'いろ',
     tokens: [
       {
@@ -273,7 +273,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 置く',
     expected: 'おく',
     tokens: [
       {
@@ -286,7 +286,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 置か',
     expected: 'おか',
     tokens: [
       {
@@ -299,7 +299,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 置き',
     expected: 'おき',
     tokens: [
       {
@@ -312,7 +312,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 置け',
     expected: 'おけ',
     tokens: [
       {
@@ -325,7 +325,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 置こ',
     expected: 'おこ',
     tokens: [
       {
@@ -338,7 +338,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 下さい',
     expected: 'ください',
     tokens: [
       {
@@ -351,7 +351,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 下さっ',
     expected: 'くださっ',
     tokens: [
       {
@@ -364,7 +364,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 下さら',
     expected: 'くださら',
     tokens: [
       {
@@ -377,7 +377,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 下さる',
     expected: 'くださる',
     tokens: [
       {
@@ -390,7 +390,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 下され',
     expected: 'くだされ',
     tokens: [
       {
@@ -403,7 +403,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 下さろ',
     expected: 'くださろ',
     tokens: [
       {
@@ -416,7 +416,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 来',
     expected: 'き',
     tokens: [
       {
@@ -429,7 +429,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 来る',
     expected: 'くる',
     tokens: [
       {
@@ -442,7 +442,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 来れ',
     expected: 'くれ',
     tokens: [
       {
@@ -455,7 +455,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 来',
     expected: 'こ',
     tokens: [
       {
@@ -468,7 +468,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 来い',
     expected: 'こい',
     tokens: [
       {
@@ -481,7 +481,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 来よ',
     expected: 'こよ',
     tokens: [
       {
@@ -494,7 +494,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 見',
     expected: 'み',
     tokens: [
       {
@@ -507,7 +507,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 見よ',
     expected: 'みよ',
     tokens: [
       {
@@ -520,7 +520,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 見る',
     expected: 'みる',
     tokens: [
       {
@@ -533,7 +533,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 見れ',
     expected: 'みれ',
     tokens: [
       {
@@ -546,7 +546,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 見ろ',
     expected: 'みろ',
     tokens: [
       {
@@ -559,7 +559,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 貰い',
     expected: 'もらい',
     tokens: [
       {
@@ -572,7 +572,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 貰う',
     expected: 'もらう',
     tokens: [
       {
@@ -585,7 +585,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 貰え',
     expected: 'もらえ',
     tokens: [
       {
@@ -598,7 +598,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 貰お',
     expected: 'もらお',
     tokens: [
       {
@@ -611,7 +611,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 貰っ',
     expected: 'もらっ',
     tokens: [
       {
@@ -624,7 +624,7 @@ export const hojodoushi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 貰わ',
     expected: 'もらわ',
     tokens: [
       {

@@ -1,6 +1,6 @@
 export const rentaishi = [
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい連体詞を使用しています: 色々',
     expected: 'いろいろ',
     tokens: [
       {
@@ -12,7 +12,7 @@ export const rentaishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい連体詞を使用しています: 色んな',
     expected: 'いろんな',
     tokens: [
       {
@@ -24,7 +24,7 @@ export const rentaishi = [
     ],
   },
   // {
-  //   message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+  //   message: '平仮名にひらいたほうが読みやすい連体詞を使用しています: 所謂',
   //   expected: 'いわゆる',
   //   tokens: [
   //     {
@@ -36,7 +36,7 @@ export const rentaishi = [
   //   ],
   // },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい連体詞を使用しています: 此の前',
     expected: 'この前',
     tokens: [
       {
@@ -48,7 +48,7 @@ export const rentaishi = [
     ],
   },
   {
-    message: '平仮名にひらいたほうが読みやすい漢字を使用しています。',
+    message: '平仮名にひらいたほうが読みやすい連体詞を使用しています: 其の',
     expected: 'その',
     tokens: [
       {
