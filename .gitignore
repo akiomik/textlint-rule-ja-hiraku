@@ -33,3 +33,6 @@ npm-debug.log
 
 # Publish src/ instead lib/
 /lib
+
+# Project specific
+.*.md
