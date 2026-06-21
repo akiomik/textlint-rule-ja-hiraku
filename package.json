@@ -35,7 +35,7 @@
   "description": "漢字を「ひらく」ためのtextlintルール",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akiomik/textlint-rule-ja-hiraku.git"
+    "url": "git+https://github.com/akiomik/textlint-rule-ja-hiraku.git"
   },
   "bugs": {
     "url": "https://github.com/akiomik/textlint-rule-ja-hiraku/issues"
