@@ -14,7 +14,11 @@ import { otherKeiyoushi } from './dictionaries/other-keiyoushi';
 import { otherMeishi } from './dictionaries/other-meishi';
 import { rentaishi } from './dictionaries/rentaishi';
 import { setsuzokushi } from './dictionaries/setsuzokushi';
-import type { DictOpts } from './opts';
+import type { CategoryOpts, DictOpts } from './opts';
+
+export type PendingEntry<T extends ExpectedTokenWithCapture> = ExpectedDictionary<T> & {
+  pending?: boolean;
+};
 
 const defaultOpts: DictOpts = {
   daimeishi: true,
@@ -32,6 +36,28 @@ const defaultOpts: DictOpts = {
   setsuzokushi: true,
 };
 
+export function filterEntries<T extends ExpectedTokenWithCapture, Dictionary extends PendingEntry<T>>(
+  entries: Dictionary[],
+  categoryOpts: CategoryOpts,
+): Dictionary[] {
+  if (categoryOpts === false) return [];
+
+  return entries.filter((entry) => {
+    const sf = entry.tokens[0]?.surface_form;
+    const key = Array.isArray(sf) ? sf[0] : sf;
+
+    if (
+      typeof categoryOpts === 'object' &&
+      key !== undefined &&
+      Object.prototype.hasOwnProperty.call(categoryOpts, key)
+    ) {
+      return categoryOpts[key];
+    }
+
+    return !entry.pending;
+  });
+}
+
 export class DictionaryLoader {
   private options: DictOpts;
 
@@ -39,61 +65,23 @@ export class DictionaryLoader {
     this.options = { ...defaultOpts, ...options };
   }
 
-  load<T extends ExpectedTokenWithCapture, Dictionary extends ExpectedDictionary<T>>(): Dictionary[] {
-    let dict = [] as Dictionary[];
+  load<T extends ExpectedTokenWithCapture, Dictionary extends PendingEntry<T>>(): Dictionary[] {
+    const categories: Array<[CategoryOpts, unknown[]]> = [
+      [this.options.daimeishi, daimeishi],
+      [this.options.fukujoshi, fukujoshi],
+      [this.options.fukushi, fukushi],
+      [this.options.hojodoushi, hojodoushi],
+      [this.options.hojokeiyoushi, hojokeiyoushi],
+      [this.options.keishikimeishi, keishikimeishi],
+      [this.options['other-doushi'], otherDoushi],
+      [this.options['other-jodoushi'], otherJodoushi],
+      [this.options['other-kandoushi'], otherKandoushi],
+      [this.options['other-keiyoushi'], otherKeiyoushi],
+      [this.options['other-meishi'], otherMeishi],
+      [this.options.rentaishi, rentaishi],
+      [this.options.setsuzokushi, setsuzokushi],
+    ];
 
-    if (this.options.daimeishi) {
-      dict = [...(daimeishi as Dictionary[])];
-    }
-
-    if (this.options.fukujoshi) {
-      dict = [...dict, ...(fukujoshi as Dictionary[])];
-    }
-
-    if (this.options.fukushi) {
-      dict = [...dict, ...(fukushi as Dictionary[])];
-    }
-
-    if (this.options.hojodoushi) {
-      dict = [...dict, ...(hojodoushi as Dictionary[])];
-    }
-
-    if (this.options.hojokeiyoushi) {
-      dict = [...dict, ...(hojokeiyoushi as Dictionary[])];
-    }
-
-    if (this.options.keishikimeishi) {
-      dict = [...dict, ...(keishikimeishi as Dictionary[])];
-    }
-
-    if (this.options['other-doushi']) {
-      dict = [...dict, ...(otherDoushi as Dictionary[])];
-    }
-
-    if (this.options['other-jodoushi']) {
-      dict = [...dict, ...(otherJodoushi as Dictionary[])];
-    }
-
-    if (this.options['other-kandoushi']) {
-      dict = [...dict, ...(otherKandoushi as Dictionary[])];
-    }
-
-    if (this.options['other-keiyoushi']) {
-      dict = [...dict, ...(otherKeiyoushi as Dictionary[])];
-    }
-
-    if (this.options['other-meishi']) {
-      dict = [...dict, ...(otherMeishi as Dictionary[])];
-    }
-
-    if (this.options.rentaishi) {
-      dict = [...dict, ...(rentaishi as Dictionary[])];
-    }
-
-    if (this.options.setsuzokushi) {
-      dict = [...dict, ...(setsuzokushi as Dictionary[])];
-    }
-
-    return dict;
+    return categories.flatMap(([opts, entries]) => filterEntries(entries as Dictionary[], opts));
   }
 }
