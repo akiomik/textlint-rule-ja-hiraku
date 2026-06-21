@@ -1,17 +1,19 @@
+export type CategoryOpts = boolean | Record<string, boolean>;
+
 export interface DictOpts {
-  daimeishi: boolean;
-  fukushi: boolean;
-  fukujoshi: boolean;
-  hojodoushi: boolean;
-  hojokeiyoushi: boolean;
-  keishikimeishi: boolean;
-  'other-doushi': boolean;
-  'other-jodoushi': boolean;
-  'other-kandoushi': boolean;
-  'other-keiyoushi': boolean;
-  'other-meishi': boolean;
-  rentaishi: boolean;
-  setsuzokushi: boolean;
+  daimeishi: CategoryOpts;
+  fukushi: CategoryOpts;
+  fukujoshi: CategoryOpts;
+  hojodoushi: CategoryOpts;
+  hojokeiyoushi: CategoryOpts;
+  keishikimeishi: CategoryOpts;
+  'other-doushi': CategoryOpts;
+  'other-jodoushi': CategoryOpts;
+  'other-kandoushi': CategoryOpts;
+  'other-keiyoushi': CategoryOpts;
+  'other-meishi': CategoryOpts;
+  rentaishi: CategoryOpts;
+  setsuzokushi: CategoryOpts;
 }
 
 export type Opts = DictOpts;
