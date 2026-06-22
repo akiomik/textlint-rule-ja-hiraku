@@ -14,11 +14,11 @@
     "build": "textlint-scripts build",
     "prepublish": "npm run --if-present build",
     "watch": "textlint-scripts build --watch",
-    "format": "biome check --apply .",
+    "format": "biome check --write .",
     "lint": "biome ci ."
   },
   "devDependencies": {
-    "@biomejs/biome": "1.4.1",
+    "@biomejs/biome": "^2.5.0",
     "@textlint/types": "^13.4.1",
     "@types/node": "^18.18.13",
     "textlint-scripts": "^13.4.1",
