@@ -10,7 +10,9 @@ const report: TextlintRuleModule = (context, options) => {
 
   const loader = new DictionaryLoader(options as DictOpts);
   const dictionaries = loader.load();
-  const matchAll = createTextlintMatcher({ tokenize, dictionaries });
+  // kuromojin@3.0.1以降はreadonly配列を返すが、morpheme-match-textlintはmutableな配列を要求するためコピーする
+  const tokenizeMutable = (text: string) => tokenize(text).then((tokens) => [...tokens]);
+  const matchAll = createTextlintMatcher({ tokenize: tokenizeMutable, dictionaries });
 
   return {
     [Syntax.Str](node) {
