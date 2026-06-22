@@ -1,26 +1,19 @@
 {
   "compilerOptions": {
-    /* Basic Options */
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    /* textlint-scripts test がtsconfig.jsonを読んでCJSとしてコンパイルするため、
-       moduleResolution: "bundler" に移行できない。TS7対応まで非推奨警告を抑制する。 */
-    "ignoreDeprecations": "6.0",
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    /* bundlerモードではnode:プロトコルの型定義が自動解決されないため明示する */
     "types": ["node"],
     "noEmit": true,
-    "target": "es2015",
+    "target": "es2022",
     "lib": ["es2022"],
-    /* Strict Type-Checking Options */
     "strict": true,
-    /* Additional Checks */
-    /* Report errors on unused locals. */
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUnusedLocals": true,
-    /* Report errors on unused parameters. */
     "noUnusedParameters": true,
-    /* Report error when not all code paths in function return a value. */
     "noImplicitReturns": true,
-    /* Report errors for fallthrough cases in switch statement. */
     "noFallthroughCasesInSwitch": true
   }
 }
