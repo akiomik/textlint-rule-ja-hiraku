@@ -46,11 +46,7 @@ export function filterEntries<T extends ExpectedTokenWithCapture, Dictionary ext
     const sf = entry.tokens[0]?.surface_form;
     const key = Array.isArray(sf) ? sf[0] : sf;
 
-    if (
-      typeof categoryOpts === 'object' &&
-      key !== undefined &&
-      Object.prototype.hasOwnProperty.call(categoryOpts, key)
-    ) {
+    if (typeof categoryOpts === 'object' && key !== undefined && Object.hasOwn(categoryOpts, key)) {
       return categoryOpts[key];
     }
 

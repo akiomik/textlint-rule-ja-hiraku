@@ -6,6 +6,7 @@
     "esModuleInterop": true,
     "noEmit": true,
     "target": "es2015",
+    "lib": ["es2022"],
     /* Strict Type-Checking Options */
     "strict": true,
     /* Additional Checks */
