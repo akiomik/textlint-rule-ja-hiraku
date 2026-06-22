@@ -4,6 +4,10 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    /* textlint-scripts test がtsconfig.jsonを読んでCJSとしてコンパイルするため、
+       moduleResolution: "bundler" に移行できない。TS7対応まで非推奨警告を抑制する。 */
+    "ignoreDeprecations": "6.0",
+    "types": ["node"],
     "noEmit": true,
     "target": "es2015",
     "lib": ["es2022"],
