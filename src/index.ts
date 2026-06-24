@@ -3,12 +3,12 @@ import { tokenize } from 'kuromojin';
 import { createTextlintMatcher } from 'morpheme-match-textlint';
 
 import { DictionaryLoader } from './loader';
-import type { Opts } from './opts';
+import type { DictOpts } from './opts';
 
 const report: TextlintRuleModule = (context, options) => {
   const { Syntax, RuleError, report, getSource, fixer } = context;
 
-  const loader = new DictionaryLoader(options as Partial<Opts>);
+  const loader = new DictionaryLoader(options as DictOpts);
   const dictionaries = loader.load();
   // kuromojin@3.0.1以降はreadonly配列を返すが、morpheme-match-textlintはmutableな配列を要求するためコピーする
   const tokenizeMutable = (text: string) => tokenize(text).then((tokens) => [...tokens]);
