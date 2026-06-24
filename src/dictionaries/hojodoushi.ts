@@ -260,6 +260,20 @@ export const hojodoushi = [
     ],
   },
   {
+    message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 致し',
+    expected: 'いたし',
+    pending: true,
+    tokens: [
+      {
+        surface_form: '致し',
+        pos: '動詞',
+        pos_detail_1: '非自立',
+        basic_form: '致す',
+        reading: 'イタシ',
+      },
+    ],
+  },
+  {
     message: '平仮名にひらいたほうが読みやすい補助動詞を使用しています: 居',
     expected: 'い',
     tokens: [

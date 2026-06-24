@@ -14,7 +14,7 @@ import { otherKeiyoushi } from './dictionaries/other-keiyoushi';
 import { otherMeishi } from './dictionaries/other-meishi';
 import { rentaishi } from './dictionaries/rentaishi';
 import { setsuzokushi } from './dictionaries/setsuzokushi';
-import type { CategoryOpts, DictOpts } from './opts';
+import type { CategoryOpts, DictOpts, Opts } from './opts';
 
 export type PendingEntry<T extends ExpectedTokenWithCapture> = ExpectedDictionary<T> & {
   pending?: boolean;
@@ -39,6 +39,7 @@ const defaultOpts: DictOpts = {
 export function filterEntries<T extends ExpectedTokenWithCapture, Dictionary extends PendingEntry<T>>(
   entries: Dictionary[],
   categoryOpts: CategoryOpts,
+  allowPending = false,
 ): Dictionary[] {
   if (categoryOpts === false) return [];
 
@@ -50,15 +51,18 @@ export function filterEntries<T extends ExpectedTokenWithCapture, Dictionary ext
       return categoryOpts[key];
     }
 
-    return !entry.pending;
+    return allowPending || !entry.pending;
   });
 }
 
 export class DictionaryLoader {
   private options: DictOpts;
+  private allowPending: boolean;
 
-  constructor(options: Partial<DictOpts>) {
-    this.options = { ...defaultOpts, ...options };
+  constructor(options: Partial<Opts>) {
+    const { allowPending = false, ...dictOpts } = options;
+    this.options = { ...defaultOpts, ...dictOpts };
+    this.allowPending = allowPending;
   }
 
   load<T extends ExpectedTokenWithCapture, Dictionary extends PendingEntry<T>>(): Dictionary[] {
@@ -78,6 +82,6 @@ export class DictionaryLoader {
       [this.options.setsuzokushi, setsuzokushi],
     ];
 
-    return categories.flatMap(([opts, entries]) => filterEntries(entries as Dictionary[], opts));
+    return categories.flatMap(([opts, entries]) => filterEntries(entries as Dictionary[], opts, this.allowPending));
   }
 }
