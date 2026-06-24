@@ -16,4 +16,6 @@ export interface DictOpts {
   setsuzokushi: CategoryOpts;
 }
 
-export type Opts = DictOpts;
+export interface Opts extends DictOpts {
+  allowPending?: boolean;
+}

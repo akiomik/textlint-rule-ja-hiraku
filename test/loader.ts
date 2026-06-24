@@ -58,4 +58,26 @@ describe('filterEntries', () => {
       assert.ok(!result.includes(pendingEntry));
     });
   });
+
+  describe('allowPending === true', () => {
+    it('stable エントリを含む', () => {
+      const result = filterEntries(entries, true, true);
+      assert.ok(result.includes(stableEntry));
+    });
+
+    it('pending エントリを含む', () => {
+      const result = filterEntries(entries, true, true);
+      assert.ok(result.includes(pendingEntry));
+    });
+
+    it('categoryOpts === false のとき全エントリを除外する', () => {
+      const result = filterEntries(entries, false, true);
+      assert.strictEqual(result.length, 0);
+    });
+
+    it('Record で明示的に false にしたエントリは除外する', () => {
+      const result = filterEntries(entries, { 保留: false }, true);
+      assert.ok(!result.includes(pendingEntry));
+    });
+  });
 });
