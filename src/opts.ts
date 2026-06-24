@@ -15,7 +15,3 @@ export interface DictOpts {
   rentaishi: CategoryOpts;
   setsuzokushi: CategoryOpts;
 }
-
-export interface Opts extends DictOpts {
-  allowPending?: boolean;
-}

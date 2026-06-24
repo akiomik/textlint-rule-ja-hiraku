@@ -32,6 +32,7 @@ tester.run('補助動詞', rule, {
     '失礼を致す',
     '失礼を致せ',
     '失礼を致そう',
+    'よろしくお願い致します', // pending
     '受話器を置いた',
     '受話器を置かないと',
     '受話器を置きたい',
@@ -640,13 +641,13 @@ tester.run('補助動詞', rule, {
 });
 
 tester.run(
-  '補助動詞 (allowPending)',
+  '補助動詞 (hojodoushi: Record で 致し enabled)',
   {
     rules: [
       {
         ruleId: 'ja-hiraku',
         rule,
-        options: { allowPending: true },
+        options: { hojodoushi: { 致し: true } },
       },
     ],
   },
