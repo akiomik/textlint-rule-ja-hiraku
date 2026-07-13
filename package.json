@@ -24,7 +24,7 @@
     "textlint-scripts": "^15.7.1",
     "textlint-tester": "^15.7.1",
     "ts-node": "^10.9.1",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "name": "textlint-rule-ja-hiraku",
   "directories": {
