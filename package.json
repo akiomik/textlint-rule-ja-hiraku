@@ -45,6 +45,12 @@
     "kuromojin": "^3.0.1",
     "morpheme-match-textlint": "^2.0.6"
   },
+  "overrides": {
+    "mocha": {
+      "diff": "^8.0.3",
+      "serialize-javascript": "^7.1.3"
+    }
+  },
   "engines": {
     "node": ">=18.14.0"
   },
