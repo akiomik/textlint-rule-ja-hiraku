@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",
-    "@textlint/types": "^15.7.1",
+    "@textlint/types": "^16.1.1",
     "@types/node": "^26.0.0",
     "textlint-scripts": "^15.7.1",
     "textlint-tester": "^15.7.1",
